@@ -1,0 +1,21 @@
+{
+  "generator-template-ui5-project": {
+    "projectname": "unitallocrequests",
+    "namespaceUI5": "com.mindset.oth",
+    "platform": "SAP Launchpad service",
+    "viewtype": "XML",
+    "ui5libs": "Content delivery network (SAPUI5)",
+    "newdir": false,
+    "namespaceURI": "com/mindset/oth",
+    "opa5pos": [
+      "Main"
+    ],
+    "opa5Journeys": [
+      "Main"
+    ],
+    "uimodules": [
+      "uimodule"
+    ],
+    "setupCompleted": true
+  }
+}
