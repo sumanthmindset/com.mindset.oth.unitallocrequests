@@ -1,109 +1,189 @@
 {
-  "_version": "1.21.0",
-  "sap.app": {
-    "id": "com.mindset.oth.unitallocrequests",
-    "type": "application",
-    "i18n": "i18n/i18n.properties",
-    "applicationVersion": {
-      "version": "1.0.0"
-    },
-    "title": "{{appTitle}}",
-    "description": "{{appDescription}}",
-    "crossNavigation": {
-      "inbounds": {
-        "intent1": {
-          "signature": {
-            "parameters": {},
-            "additionalParameters": "allowed"
-          },
-          "semanticObject": "uimodule",
-          "action": "display",
-          "title": "Unit & Allocation Requests",
-          "icon": "sap-icon://add"
-        }
-      }
-    }
-  },
-  "sap.ui": {
-    "technology": "UI5",
-    "icons": {
-      "icon": "",
-      "favIcon": "",
-      "phone": "",
-      "phone@2": "",
-      "tablet": "",
-      "tablet@2": ""
-    },
-    "deviceTypes": {
-      "desktop": true,
-      "tablet": true,
-      "phone": true
-    }
-  },
-  "sap.ui5": {
-    "flexEnabled": true,
-    "rootView": {
-      "viewName": "com.mindset.oth.unitallocrequests.view.MainView",
-      "type": "XML",
-      "async": true,
-      "id": "idAppControl"
-    },
-    "dependencies": {
-      "minUI5Version": "1.60.0",
-      "libs": {
-        "sap.ui.core": {},
-        "sap.m": {},
-        "sap.ui.layout": {}
-      }
-    },
-    "contentDensities": {
-      "compact": true,
-      "cozy": true
-    },
-    "models": {
-      "i18n": {
-        "type": "sap.ui.model.resource.ResourceModel",
-        "settings": {
-          "bundleName": "com.mindset.oth.unitallocrequests.i18n.i18n"
-        }
-      }
-    },
-    "resources": {
-      "css": [
-        {
-          "uri": "css/style.css"
-        }
-      ]
-    },
-    "routing": {
-      "config": {
-        "routerClass": "sap.m.routing.Router",
-        "viewType": "XML",
-        "viewPath": "com.mindset.oth.unitallocrequests.view",
-        "controlId": "idAppControl",
-        "controlAggregation": "pages",
-        "async": true
-      },
-      "routes": [
-        {
-          "name": "RouteMainView",
-          "pattern": "RouteMainView",
-          "target": [
-            "TargetMainView"
-          ]
-        }
-      ],
-      "targets": {
-        "TargetMainView": {
-          "viewType": "XML",
-          "viewLevel": 1,
-          "viewId": "idAppControl",
-          "viewName": "MainView"
-        }
-      }
-    }
-  },
-  "sap.cloud": {
-    "service": "unitallocrequests.service"
-  }
+	"_version": "1.12.0",
+	"sap.app": {
+		"id": "com.mindset.oth.unitallocrequests",
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"dataSources": {
+			"mainService": {
+				"uri": "/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/metadata.xml"
+				}
+			}
+		},
+		"sourceTemplate": {
+			"id": "ui5template.basicSAPUI5ApplicationProject",
+			"version": "1.40.12"
+		},
+		"crossNavigation": {
+			"inbounds": {
+			"intent1": {
+			"signature": {
+			"parameters": {},
+			"additionalParameters": "allowed"
+			},
+			"semanticObject": "unitallocrequests", 
+			"action": "experience",
+			"title": "Unit & Allocation Requests"
+			}
+			}
+			}
+	},
+
+	"sap.ui": {
+		"technology": "UI5",
+		"icons": {
+			"icon": "",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		}
+	},
+
+	"sap.ui5": {
+		"flexEnabled": false,
+		"rootView": {
+			"viewName": "com.mindset.oth.unitallocrequests.view.App",
+			"type": "XML",
+			"async": true,
+			"id": "App"
+		},
+		"dependencies": {
+			"minUI5Version": "1.65.6",
+			"libs": {
+				"sap.ui.layout": {},
+				"sap.ui.core": {},
+				"sap.m": {}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "com.mindset.oth.unitallocrequests.i18n.i18n"
+				}
+			},
+			"": {
+				"dataSource": "mainService",
+				"preload":false
+			},
+				"RequestModel":{
+					"type": "sap.ui.model.json.JSONModel",
+				"settings": {},
+				"uri": "./model/Item.json",
+				"preload": true
+			}
+		},
+		"resources": {
+			"css": [{
+				"uri": "css/style.css"
+			}]
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"async": true,
+				"viewPath": "com.mindset.oth.unitallocrequests.view",
+				"controlAggregation": "pages",
+				"controlId": "app",
+				"clearControlAggregation": false
+			},
+			"routes": [
+				{
+					"name": "Main",
+					"pattern": "",
+					"target": [
+						"Status",
+						"Wapp"
+					]
+				},
+				{
+					"name": "Status",
+					"pattern": "Status/{RequestType}",
+					"target": [
+						"Status",
+						"Main"
+					]
+				},
+					{
+				"name": "Detail",
+				"pattern":"{RequestId}/{ItemId}",
+				"target":["detailTarget"]
+			},
+
+			
+			{
+					"name": "Master",
+				"pattern": "{RequestId}",
+				"target": ["masterTarget","Wapp"]
+				
+			}
+			],
+			"targets": {
+				"Status": {
+					"viewId": "Status",
+					"viewName": "Status",
+					"controlAggregation": "masterPages",
+					"viewLevel": 0
+				},
+				"Main": {
+					"viewName": "Main",
+					"viewId": "Main",
+					"viewLevel": 1,
+					"controlAggregation": "detailPages"
+				},
+				"Wapp": {
+				
+					"viewName": "WApp",
+					
+					"controlAggregation": "detailPages"
+				},
+					"masterTarget":{
+					"viewName": "Master",
+					"controlAggregation": "masterPages",
+					"viewLevel": 2,
+					"clearControlAggregation": true
+					
+				
+					
+				}
+				,
+				"detailTarget":{
+					"viewType": "XML",
+					"viewName": "Detail",
+					"viewLevel": 3,
+					"controlAggregation": "detailPages"
+				
+					
+				},
+			
+				"divide":{
+					"viewName":"SplitApp"
+				}
+			}
+		}
+	},
+	"sap.cloud": {
+		"service": "unitallocrequests.service" 
+		}
 }

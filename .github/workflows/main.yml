@@ -1,0 +1,36 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the action will run. 
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ cf ]
+#   pull_request:
+#     branches: [ cf ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+      - name: Build docker images
+        run: docker build -t local - < .devcontainer/Dockerfile
+      - name: Build and deploy
+        env:
+          CF_USER: ${{ secrets.CF_SERVICE_USER }}
+          CF_PASSWORD: ${{ secrets.CF_SERVICE_PASSWORD }}
+          CF_API: https://api.cf.us10.hana.ondemand.com
+          CF_ORG: "Mindset\\ Consulting_mindsetcfdev"
+          CF_SPACE: DEV
+        run: docker run -i -v $PWD:/app -w/app local /bin/bash -c "cf login -a $CF_API -o $CF_ORG -s $CF_SPACE -u $CF_USER -p $CF_PASSWORD; npm install; npm run-script deploy"

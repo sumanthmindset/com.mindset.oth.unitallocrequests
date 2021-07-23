@@ -1,0 +1,140 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:form="sap.ui.layout.form" xmlns:core="sap.ui.core" height="100%"
+	width="100%">
+	<form:SimpleForm minWidth="1024" layout="ResponsiveGridLayout" maxContainerCols="3" editable="true" labelSpanL="5" labelSpanM="5"
+		emptySpanL="0" emptySpanM="0" columnsL="3" columnsM="3">
+		<VBox>
+			<Panel headerText="Cash Flow" expandable="true">
+				<HBox>
+					<VBox>
+						<Label text="In which currency is the primary cash flow? " />
+						<ComboBox items="{RequestModel>/CurrencyPrimaryCashFlow}" selectedKey="" change="onChange" width="14rem">
+			<customData>
+				<core:CustomData key="ReconciliationSystem"/></customData>
+		<core:Item key="{RequestModel>key}" text="{RequestModel>value}"/>
+		</ComboBox>
+					</VBox>
+					<VBox class="sapUiSmallMarginBegin">
+						<Label text="Are cashflows currently available for remittance?"/>
+						<ComboBox items="{RequestModel>/CashFlowsForRemittance}" selectedKey="" change="onChange">
+							<customData>
+								<core:CustomData key="ReconciliationSystem"/></customData>
+							<core:Item key="{RequestModel>key}" text="{RequestModel>value}"/>
+						</ComboBox>
+					</VBox>
+				</HBox>
+			</Panel>
+			<Panel headerText="Sales Price " expandable="true">
+				<HBox>
+					<VBox>
+						<Label text="Are sale prices mainly determined by local conditions?" wrapping="true"/>
+						<ComboBox items="{RequestModel>/PrimaryCashFlow}" selectedKey="" change="onChange">
+							<customData>
+								<core:CustomData key="ReconciliationSystem"/></customData>
+							<core:Item key="{RequestModel>key}" text="{RequestModel>value}"/>
+						</ComboBox>
+					</VBox>
+					<VBox class="sapUiSmallMarginBegin">
+						<Label text="Are sales prices responsive on a short term basis to worldwide competition and changes in exchange rates?" wrapping="true"/>
+						<ComboBox items="{RequestModel>/SalesPriceExcRates}"  selectedKey="" change="onChange">
+							<customData>
+								<core:CustomData key="ReconciliationSystem"/></customData>
+							<core:Item key="{RequestModel>key}" text="{RequestModel>value}"/>
+						</ComboBox>
+					</VBox>
+				</HBox>
+			</Panel>
+			<Panel headerText="Sales Market" expandable="true">
+				<HBox>
+					<VBox>
+						<Label text="Is there any local sales market for the product/service?" wrapping="true"/>
+						<ComboBox items="{RequestModel>/SalesMarActiveLocalSalesProdSer}"  selectedKey="" change="onChange">
+							<customData>
+								<core:CustomData key="ReconciliationSystem"/></customData>
+							<core:Item key="{RequestModel>key}" text="{RequestModel>value}"/>
+						</ComboBox>
+						<Label text="In which currency are most sales denominated?"/>
+						<ComboBox items="{RequestModel>/SalesMarSalesDenominated}"  selectedKey="" change="onChange">
+							<customData>
+								<core:CustomData key="ReconciliationSystem"/></customData>
+							<core:Item key="{RequestModel>key}" text="{RequestModel>value}"/>
+						</ComboBox>
+					</VBox>
+					<VBox class="sapUiSmallMarginBegin">
+						<Label text="a.What percent of your product/service is sold locally?" wrapping="true"/>
+						<Input value="{SalesMarProdSerSolLocally}" width="14rem"/>
+					
+					</VBox>
+					<VBox class="sapUiSmallMarginBegin">
+						<Label text="b.What percent of your product/service is sold to other countries?" wrapping="true"/>
+						<Input value="{SalesMarProdSerSolToOthCountries}" width="14rem"/>
+						
+					</VBox>
+				</HBox>
+			</Panel>
+			<Panel headerText="Expenses" expandable="true">
+				<HBox>
+					<VBox>
+						<Label text="Are raw materials, inventory, labor,etc. determined by local conditions?" wrapping="true"/>
+						<ComboBox items="{RequestModel>/ExpRawMatLocCond}"  selectedKey="" change="onChange">
+							<customData>
+								<core:CustomData key="ReconciliationSystem"/></customData>
+							<core:Item key="{RequestModel>key}" text="{RequestModel>value}"/>
+						</ComboBox>
+					</VBox>
+					<VBox class="sapUiSmallMarginBegin">
+						<Label text="Are raw materials, inventory, labor,etc. are mainly obtained by US sources?" wrapping="true"/>
+						<ComboBox items="{RequestModel>/ExpRawMatUS}"  selectedKey="" change="onChange">
+							<customData>
+								<core:CustomData key="ReconciliationSystem"/></customData>
+							<core:Item key="{RequestModel>key}" text="{RequestModel>value}"/>
+						</ComboBox>
+					</VBox>
+				</HBox>
+			</Panel>
+			<Panel headerText="Financing" expandable="true">
+				
+					<VBox>
+						<Label text="In which currency is financing primarly obtained?"/>
+						<ComboBox items="{RequestModel>/CurrFinanceObtained}"  selectedKey="" change="onChange">
+							<customData>
+								<core:CustomData key="ReconciliationSystem"/></customData>
+							<core:Item key="{RequestModel>key}" text="{RequestModel>value}"/>
+						</ComboBox>
+				
+				
+						<Label text="Date is primarly serviced by(Select one):"/>
+						<RadioButtonGroup >
+							<RadioButton  text="Cargill, Incorporated"/>
+						
+							<RadioButton  text="Other Cargill, Inc Companies"/>
+							<!--<Input></Input>-->
+							
+							<RadioButton  text="Other dollar denominated obligations"/>
+							<RadioButton  text="Funds generated by your opearations"/>
+						</RadioButtonGroup>
+					</VBox>
+			
+			</Panel>
+			<Panel headerText="IC transactions" expandable="true">
+				<HBox>
+					<VBox>
+						<Label text="In which currency is the primary cash flow? "/>
+						<ComboBox items="{RequestModel>/PrimCashFlow}"  selectedKey="" change="onChange">
+							<customData>
+								<core:CustomData key="ReconciliationSystem"/></customData>
+							<core:Item key="{RequestModel>key}" text="{RequestModel>value}"/>
+						</ComboBox>
+					</VBox>
+					<VBox class="sapUiSmallMarginBegin">
+						<Label text="Are cashflows currently available for remittance?"/>
+						<ComboBox items="{RequestModel>/CashFlowRem}"  selectedKey="" change="onChange">
+							<customData>
+								<core:CustomData key="ReconciliationSystem"/></customData>
+							<core:Item key="{RequestModel>key}" text="{RequestModel>value}"/>
+						</ComboBox>
+					</VBox>
+				</HBox>
+			</Panel>
+		</VBox>
+	</form:SimpleForm>
+</core:FragmentDefinition>

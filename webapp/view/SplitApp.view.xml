@@ -1,5 +1,0 @@
-<mvc:View controllerName="com.mindset.oth.unitallocrequests.controller.SplitApp" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
-  <SplitApp  id="mysplitapp">
-  	
-  </SplitApp>
-</mvc:View>
