@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx"
+	xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:sap="http://www.sap.com/Protocols/SAPData">
+	<edmx:Reference
+		Uri="https://webidecp-b2b9d6cc8.dispatcher.us1.hana.ondemand.com/destinations/S4H_ETHAN/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMON',Version='0001',SAP__Origin='LOCAL')/$value"
+		xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx"><edmx:Include Namespace="com.sap.vocabularies.Common.v1" Alias="Common"/></edmx:Reference>
+	<edmx:Reference
+		Uri="https://webidecp-b2b9d6cc8.dispatcher.us1.hana.ondemand.com/destinations/S4H_ETHAN/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_CAPABILITIES',Version='0001',SAP__Origin='LOCAL')/$value"
+		xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx"><edmx:Include Namespace="Org.OData.Capabilities.V1" Alias="Capabilities"/></edmx:Reference>
+	<edmx:Reference
+		Uri="https://webidecp-b2b9d6cc8.dispatcher.us1.hana.ondemand.com/destinations/S4H_ETHAN/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMUNICATION',Version='0001',SAP__Origin='LOCAL')/$value"
+		xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx"><edmx:Include Namespace="com.sap.vocabularies.Communication.v1" Alias="Communication"/></edmx:Reference>
+	<edmx:Reference
+		Uri="https://webidecp-b2b9d6cc8.dispatcher.us1.hana.ondemand.com/destinations/S4H_ETHAN/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_AGGREGATION',Version='0001',SAP__Origin='LOCAL')/$value"
+		xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx"><edmx:Include Namespace="Org.OData.Aggregation.V1" Alias="Aggregation"/></edmx:Reference>
+	<edmx:Reference
+		Uri="https://webidecp-b2b9d6cc8.dispatcher.us1.hana.ondemand.com/destinations/S4H_ETHAN/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_PERSONALDATA',Version='0001',SAP__Origin='LOCAL')/$value"
+		xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx"><edmx:Include Namespace="com.sap.vocabularies.PersonalData.v1" Alias="PersonalData"/></edmx:Reference>
+	<edmx:DataServices m:DataServiceVersion="2.0">
+		<Schema Namespace="ZFIN_C_BAM_REQUEST_CDS" xml:lang="en" sap:schema-version="1" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+			<EntityType Name="ZFIN_C_BAM_REQUESTType" sap:label="Request Information for BAM View" sap:content-version="1">
+				<Key><PropertyRef Name="RequestId"/>
+				</Key><Property Name="RequestId" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="Items" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="RequestDescription" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="BusinessReason" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="DateSubmitted" Type="Edm.String" Nullable="false"/>
+				<Property Name="EffectiveDate" Type="Edm.String" Nullable="false"/>
+				<Property Name="Priority" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="Status" Type="Edm.String" MaxLength="32"/>
+				<Property Name="RequestorItem" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="Requestor" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="AssigbedTo" Type="Edm.String" Nullable="false" MaxLength="32"/>
+			</EntityType>
+			<EntityType Name="ZFIN_C_BAM_REQUESTItems" sap:label="Request Information for BAM View" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="RequestId"/>
+				</Key>
+				<Key>
+					<PropertyRef Name="ItemId"/>
+				</Key>
+				<Property Name="RequestId" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="ItemId" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="NewUnitName" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="RequestDescription" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="BusinessReason" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="DateSubmitted" Type="Edm.String" Nullable="false"/>
+				<Property Name="EffectiveDate" Type="Edm.String" Nullable="false"/>
+				<Property Name="Priority" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="Status" Type="Edm.String" MaxLength="32"/>
+				<Property Name="RequestorItem" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="Requestor" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="AssignedTo" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="ReferenceUnit" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="BusinessJustification" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="BusinessGroupCode" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="CountryOfNewUnit" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="FCUnittoholdInvestmentinNewUnit" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="FCofNewUnit" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="NCONatcost" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="CargilPercent" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="PrimaryCashFlow" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="CashFlowsForRemittance" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="SalesPricesByLocalCond" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="SalesPriceExcRates" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="SalesMarActiveLocalSalesProdSer" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="SalesMarProdSerSolLocally" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="SalesMarProdSerSolToOthCountries" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="SalesMarSalesDenominated" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="ExpRawMatLocCond" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="ExpRawMatUS" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="CurrFinanceObtained" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="DateIsPrimSer" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="AllLineDes" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="AlloPurp" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="AlloType" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="EffecDate" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="UnitAgreeAlloc" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="BookUnitFunCostId" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="BookLevFRPLAccount" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="YTDDollarAlloc" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="BusinessGroupToUnit" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="CountryToUnit" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="ToUnit" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="ToUnitFuncCostID" Type="Edm.String" Nullable="false" MaxLength="32"/>
+				<Property Name="AlloBusiJus" Type="Edm.String" Nullable="false" MaxLength="32"/>
+			
+				
+			</EntityType>
+			<EntityContainer Name="ZFIN_C_BAM_REQUEST_CDS_Entities" m:IsDefaultEntityContainer="true" sap:message-scope-supported="true"
+				sap:supported-formats="atom json xlsx">
+				<EntitySet Name="ZFIN_C_BAM_REQUEST" EntityType="ZFIN_C_BAM_REQUEST_CDS.ZFIN_C_BAM_REQUESTType" sap:creatable="false" sap:updatable="false"
+					sap:deletable="false" sap:content-version="1"/>
+				<EntitySet Name="ZFIN_C_BAM_REQUESTItems" EntityType="ZFIN_C_BAM_REQUEST_CDS.ZFIN_C_BAM_REQUESTItems" sap:creatable="false"
+					sap:updatable="false" sap:deletable="false" sap:content-version="1"/>
+			</EntityContainer>
+			<Annotations Target="ZFIN_C_BAM_REQUEST_CDS.ZFIN_C_BAM_REQUEST_CDS_Entities" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+				<Annotation Term="Aggregation.ApplySupported">
+					<Record>
+						<PropertyValue Property="Transformations">
+							<Collection>
+								<String>aggregate</String>
+								<String>groupby</String>
+								<String>filter</String>
+							</Collection>
+						</PropertyValue><PropertyValue Property="Rollup" EnumMember="None"/></Record>
+				</Annotation>
+			</Annotations><atom:link rel="self"
+				href="https://webidecp-b2b9d6cc8.dispatcher.us1.hana.ondemand.com/destinations/S4H_ETHAN/sap/opu/odata/sap/ZFIN_C_BAM_REQUEST_CDS/$metadata"
+				xmlns:atom="http://www.w3.org/2005/Atom"/><atom:link rel="latest-version"
+				href="https://webidecp-b2b9d6cc8.dispatcher.us1.hana.ondemand.com/destinations/S4H_ETHAN/sap/opu/odata/sap/ZFIN_C_BAM_REQUEST_CDS/$metadata"
+				xmlns:atom="http://www.w3.org/2005/Atom"/></Schema>
+	</edmx:DataServices>
+</edmx:Edmx>

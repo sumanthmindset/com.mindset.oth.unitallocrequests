@@ -1,0 +1,8523 @@
+{   
+	"Requestvisible":true,
+    "CurrencySurveyvisible":true,
+    "RestructringAllocationvisible":false,
+    "Itemselected":"01",
+    "newItem":"",
+    "NewUnitName":"New Unit Name",
+   
+  
+	"Items": [
+		{
+		"key": "01",
+		"value": "01"
+		}, 
+		{
+		"key": "02",
+		"value": "02"
+		},
+		{
+		"key": "03",
+		"value": "03"
+		},
+				{
+				"key": "04",
+				"value": "04"
+			},
+				{
+				"key": "05",
+				"value": "05"
+			}
+			],
+    "RequestType":[
+    	{
+    	"name" :"Submitted",
+    	"value":6
+    	},{
+    		"name" :"With Approver",	
+    	"value":3
+    	},
+    	{
+    	"name" :"With MasterData",		
+    	"value":3
+    		
+    	},
+    	{
+    	"name" :"Completed",		
+    	"value":4
+    	},
+    	{
+    			"name" :"Rejected",		
+    	"value":5
+    	
+    	}
+    	],
+	"Requests": [
+		{
+		"RequestType":"Submitted",
+		"RequestId": "1825756",
+		"NewUnitName": "New Unit Name",
+		"RequestDescription": "Fine Foods Aquisition",
+		"BusinessReason": "Business Reason",
+		"DateSubmitted": "05/23/2020",
+		"EffectiveDate": "06/09/2020",
+		"Priority": "Medium",
+		"Status": "Submitted",
+		"RequestorItem": "01",
+		"Requestor": "Andy Fitzgibbons",
+		"AssignedTo": "David Smith",
+		"NoOfItems": 5,
+
+		"Items": [
+			{
+				
+			"RequestType":"New Reporting Unit",
+			"RequestDescription": "Fine Foods Aquisition",
+			"RequestId": "1825756",
+			"ItemId": "101",
+			"RequestorItem": "101",
+			"NewUnitName": "Reporting Unit",
+			"Requestor": "Andy Fitzgibbons",
+			"DateSubmitted": "05/23/2020",
+			"Status": "Not Started",
+			"AssignedTo": "David Smith",
+			"Priority":"Medium",
+			"EffectiveDate": "",
+			"CargilPercent": "50",
+			"SalesMarProdSerSolLocally": "",
+			"SalesMarProdSerSolToOthCountries": "",
+			"BusinessJustification": "",
+			"AllLineDes": "",
+					"EffecDate": "",
+						"AlloBusiJus": "",
+			"BusinessReasonSelected":"Current Account",
+			"ReferenceUnitSelected":"ASD 001",
+			"BusinessGroupCodeSelected":"BSGC",
+			"CountryOfNewUnitSelected":"Germany",
+			"FCUnittoholdInvestmentinNewUnitSelected":"GER",
+			"FCofNewUnitSelected":"USD",
+			"NCONatcostSelected":"NCON at Cost",
+			"CurrencyPrimaryCashFlowSelected":"CAD",
+			"CashFlowsForRemittanceSelected":"Yes",
+			"SalesPricesByLocalCondSelected":"Yes",
+			"SalesPriceExcRatesSelected":"Yes",
+			"SalesMarActiveLocalSalesProdSerSelected":"Yes",
+			"SalesMarSalesDenominatedSelected":"USD",
+			"ExpRawMatLocCondSelected":"Yes",
+			"ExpRawMatUSSelected":"Yes",
+			"CurrFinanceObtainedSelected":"USD",
+			"PrimCashFlowSelected":"Yes",
+			"CashFlowRemSelected":"Yes",
+			
+			"AlloPurpSelected":"Yes",
+			"AlloTypeSelected":"Distribution",
+			"UnitAgreeAllocSelected":"Universal Allocation",
+			"BookUnitFunCostIdSelected":"1018",
+			"BookLevFRPLAccountSelected":"FR Account",
+			"YTDDollarAllocSelected":"$100k-$250k",
+			"BusinessGroupToUnitSelected":"Blue Jays",
+			"CountryToUnitSelected":"Germany",
+			"ToUnitSelected":"Mexico",
+			"ToUnitFuncCostIDSelected":"1212",
+			"BusinessReason": [{
+				"key": "Current Account",
+				"value": "Current Account"
+			}, {
+				"key": "Bill Payments",
+				"value": "Bill Payments"
+			}],
+				"BusinessGroupCode": [
+				{
+				"key": "BSGC",
+				"value": "BSGC"
+			}, 
+			{
+				"key": "SADAS",
+				"value": "SADAS"
+			}
+			],
+			"ReferenceUnit": [{
+				"key": "ASD 001",
+				"value": "ASD 001"
+			}, {
+				"key": "BUB 900",
+				"value": "BUB 900"
+			}],
+		
+			"CountryOfNewUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "France",
+				"value": "France"
+
+			}, {
+				"key": "United Kingdom",
+				"value": "United Kingdom"
+			}],
+			"FCUnittoholdInvestmentinNewUnit": [{
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"FCofNewUnit": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"NCONatcost": [{
+				"key": "NCON at Cost",
+				"value": "NCON at Cost"
+			}, {
+				"key": "NCON at Equity",
+				"value": "NCON at Equity"
+			}],
+			"CurrencyPrimaryCashFlow": [{
+				"key": "CAD",
+				"value": "CAD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowsForRemittance": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPricesByLocalCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPriceExcRates": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarActiveLocalSalesProdSer": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarSalesDenominated": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"ExpRawMatLocCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"ExpRawMatUS": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"CurrFinanceObtained": [{
+					"key": "USD",
+					"value": "USD"
+				}, {
+					"key": "AUD",
+					"value": "AUD"
+				}, {
+					"key": "CAD",
+					"value": "CAD"
+				}
+
+			],
+			"DateIsPrimSer": [{
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}
+
+			],
+			"PrimCashFlow": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowRem": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AlloPurp": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AlloType": [{
+				"key": "Distribution",
+				"value": "Distribution"
+			}, {
+				"key": "Assessment",
+				"value": "Assessment"
+			}],
+		
+			"UnitAgreeAlloc": [{
+				"key": "Universal Allocation",
+				"value": "Universal Allocation"
+			}, {
+				"key": "Run Allocation",
+				"value": "Run Allocation"
+			}],
+			"BookUnitFunCostId": [{
+				"key": "1018",
+				"value": "1018"
+			}, {
+				"key": "1099",
+				"value": "1099"
+			}],
+			"BookLevFRPLAccount": [{
+				"key": "FR Account",
+				"value": "FR Account"
+			}, {
+				"key": "PL Account",
+				"value": "PL Account"
+			}],
+			"YTDDollarAlloc": [{
+				"key": "$100k-$250k",
+				"value": "$100k-$250k"
+			}, {
+				"key": "$250k-$450k",
+				"value": "$250k-$450k"
+			}],
+			"BusinessGroupToUnit": [{
+				"key": "Blue Jays",
+				"value": "Blue Jays"
+			}, {
+				"key": "Evil Masterminds",
+				"value": "Evil Masterminds"
+			}, {
+				"key": "Gritty Goblins",
+				"value": "Gritty Goblins"
+			}],
+			"CountryToUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "Canada",
+				"value": "Canada"
+			}, {
+				"key": "India",
+				"value": "India"
+			}],
+			"ToUnit": [{
+					"key": "Mexico",
+					"value": "Mexico"
+				}, {
+					"key": "Bahrain",
+					"value": "Bahrain"
+				}, {
+					"key": "Bolivia",
+					"value": "Bolivia"
+				}
+
+			],
+			"ToUnitFuncCostID": [{
+				"key": "1212",
+				"value": "1212"
+			}, {
+				"key": "9865",
+				"value": "9865"
+			}]
+		
+
+		}, 
+		{   "RequestType":"New Reporting Unit",
+			"RequestDescription": "Fine Foods Aquisition",
+			"Requestor": "Andy Fitzgibbons",
+			"DateSubmitted": "05/23/2020",
+			"Status": "Not Started",
+			"AssignedTo": "David Smith",
+			"ItemId": "102",
+			"RequestorItem": "102",
+			"RequestId": "1825756",
+			"NewUnitName": "Reporting Unit",
+				"Priority":"Medium",
+					"BusinessReasonSelected":"Current Account",
+			"ReferenceUnitSelected":"ASD 001",
+			"BusinessGroupCodeSelected":"BSGC",
+			"CountryOfNewUnitSelected":"Germany",
+			"FCUnittoholdInvestmentinNewUnitSelected":"GER",
+			"FCofNewUnitSelected":"USD",
+			"NCONatcostSelected":"NCON at Cost",
+			"CurrencyPrimaryCashFlowSelected":"CAD",
+			"CashFlowsForRemittanceSelected":"Yes",
+			"SalesPricesByLocalCondSelected":"Yes",
+			"SalesPriceExcRatesSelected":"Yes",
+			"SalesMarActiveLocalSalesProdSerSelected":"Yes",
+			"SalesMarSalesDenominatedSelected":"USD",
+			"ExpRawMatLocCondSelected":"Yes",
+			"ExpRawMatUSSelected":"Yes",
+			"CurrFinanceObtainedSelected":"USD",
+			"PrimCashFlowSelected":"Yes",
+			"CashFlowRemSelected":"Yes",
+			
+			"AlloPurpSelected":"Yes",
+			"AlloTypeSelected":"Distribution",
+			"UnitAgreeAllocSelected":"Universal Allocation",
+			"BookUnitFunCostIdSelected":"1018",
+			"BookLevFRPLAccountSelected":"FR Account",
+			"YTDDollarAllocSelected":"$100k-$250k",
+			"BusinessGroupToUnitSelected":"Blue Jays",
+			"CountryToUnitSelected":"Germany",
+			"ToUnitSelected":"Mexico",
+			"ToUnitFuncCostIDSelected":"1212",
+			"BusinessReason": [{
+				"key": "Current Account",
+				"value": "Current Account"
+			}, {
+				"key": "Bill Payments",
+				"value": "Bill Payments"
+			}],
+			"ReferenceUnit": [{
+				"key": "ASD 001",
+				"value": "ASD 001"
+			}, {
+				"key": "BUB 900",
+				"value": "BUB 900"
+			}],
+			"EffectiveDate": "",
+
+			"BusinessGroupCode": [{
+				"key": "BSGC",
+				"value": "BSGC"
+			}, {
+				"key": "SADAS",
+				"value": "SADAS"
+			}],
+			"CountryOfNewUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "France",
+				"value": "France"
+
+			}, {
+				"key": "United Kingdom",
+				"value": "United Kingdom"
+			}],
+			"FCUnittoholdInvestmentinNewUnit": [{
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"FCofNewUnit": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"CargilPercent": "",
+
+			"NCONatcost": [{
+				"key": "NCON at Cost",
+				"value": "NCON at Cost"
+			}, {
+				"key": "NCON at Equity",
+				"value": "NCON at Equity"
+			}],
+			"BusinessJustification": "",
+			"CurrencyPrimaryCashFlow": [{
+				"key": "CAD",
+				"value": "CAD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowsForRemittance": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPricesByLocalCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPriceExcRates": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarActiveLocalSalesProdSer": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarProdSerSolLocally": "",
+			"SalesMarProdSerSolToOthCountries": "",
+			"SalesMarSalesDenominated": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"ExpRawMatLocCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"ExpRawMatUS": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"CurrFinanceObtained": [{
+					"key": "USD",
+					"value": "USD"
+				}, {
+					"key": "AUD",
+					"value": "AUD"
+				}, {
+					"key": "CAD",
+					"value": "CAD"
+				}
+
+			],
+			"DateIsPrimSer": [{
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}
+
+			],
+			"PrimCashFlow": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowRem": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AllLineDes": "",
+			"AlloPurp": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AlloType": [{
+				"key": "Distribution",
+				"value": "Distribution"
+			}, {
+				"key": "Assessment",
+				"value": "Assessment"
+			}],
+			"EffecDate": "",
+			"UnitAgreeAlloc": [{
+				"key": "Universal Allocation",
+				"value": "Universal Allocation"
+			}, {
+				"key": "Run Allocation",
+				"value": "Run Allocation"
+			}],
+			"BookUnitFunCostId": [{
+				"key": "1018",
+				"value": "1018"
+			}, {
+				"key": "1099",
+				"value": "1099"
+			}],
+			"BookLevFRPLAccount": [{
+				"key": "FR Account",
+				"value": "FR Account"
+			}, {
+				"key": "PL Account",
+				"value": "PL Account"
+			}],
+			"YTDDollarAlloc": [{
+				"key": "$100k-$250k",
+				"value": "$100k-$250k"
+			}, {
+				"key": "$250k-$450k",
+				"value": "$250k-$450k"
+			}],
+			"BusinessGroupToUnit": [{
+				"key": "Blue Jays",
+				"value": "Blue Jays"
+			}, {
+				"key": "Evil Masterminds",
+				"value": "Evil Masterminds"
+			}, {
+				"key": "Gritty Goblins",
+				"value": "Gritty Goblins"
+			}],
+			"CountryToUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "Canada",
+				"value": "Canada"
+			}, {
+				"key": "India",
+				"value": "India"
+			}],
+			"ToUnit": [{
+					"key": "Mexico",
+					"value": "Mexico"
+				}, {
+					"key": "Bahrain",
+					"value": "Bahrain"
+				}, {
+					"key": "Bolivia",
+					"value": "Bolivia"
+				}
+
+			],
+			"ToUnitFuncCostID": [{
+				"key": "1212",
+				"value": "1212"
+			}, {
+				"key": "9865",
+				"value": "9865"
+			}],
+			"AlloBusiJus": ""
+
+		}, 
+		{  "RequestType":"New Reporting Unit",
+			"RequestDescription": "Fine Foods Aquisition",
+			"Requestor": "Andy Fitzgibbons",
+			"DateSubmitted": "05/23/2020",
+			"Status": "Not Started",
+			"AssignedTo": "David Smith",
+			"ItemId": "103",
+			"RequestorItem": "103",
+			"RequestId": "1825756",
+			"NewUnitName": "Reporting Unit",
+				"Priority":"Medium",
+					"BusinessReasonSelected":"Current Account",
+			"ReferenceUnitSelected":"ASD 001",
+			"BusinessGroupCodeSelected":"BSGC",
+			"CountryOfNewUnitSelected":"Germany",
+			"FCUnittoholdInvestmentinNewUnitSelected":"GER",
+			"FCofNewUnitSelected":"USD",
+			"NCONatcostSelected":"NCON at Cost",
+			"CurrencyPrimaryCashFlowSelected":"CAD",
+			"CashFlowsForRemittanceSelected":"Yes",
+			"SalesPricesByLocalCondSelected":"Yes",
+			"SalesPriceExcRatesSelected":"Yes",
+			"SalesMarActiveLocalSalesProdSerSelected":"Yes",
+			"SalesMarSalesDenominatedSelected":"USD",
+			"ExpRawMatLocCondSelected":"Yes",
+			"ExpRawMatUSSelected":"Yes",
+			"CurrFinanceObtainedSelected":"USD",
+			"PrimCashFlowSelected":"Yes",
+			"CashFlowRemSelected":"Yes",
+			
+			"AlloPurpSelected":"Yes",
+			"AlloTypeSelected":"Distribution",
+			"UnitAgreeAllocSelected":"Universal Allocation",
+			"BookUnitFunCostIdSelected":"1018",
+			"BookLevFRPLAccountSelected":"FR Account",
+			"YTDDollarAllocSelected":"$100k-$250k",
+			"BusinessGroupToUnitSelected":"Blue Jays",
+			"CountryToUnitSelected":"Germany",
+			"ToUnitSelected":"Mexico",
+			"ToUnitFuncCostIDSelected":"1212",
+			"BusinessReason": [{
+				"key": "Current Account",
+				"value": "Current Account"
+			}, {
+				"key": "Bill Payments",
+				"value": "Bill Payments"
+			}],
+			"ReferenceUnit": [{
+				"key": "ASD 001",
+				"value": "ASD 001"
+			}, {
+				"key": "BUB 900",
+				"value": "BUB 900"
+			}],
+			"EffectiveDate": "",
+
+			"BusinessGroupCode": [{
+				"key": "BSGC",
+				"value": "BSGC"
+			}, {
+				"key": "SADAS",
+				"value": "SADAS"
+			}],
+			"CountryOfNewUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "France",
+				"value": "France"
+
+			}, {
+				"key": "United Kingdom",
+				"value": "United Kingdom"
+			}],
+			"FCUnittoholdInvestmentinNewUnit": [{
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"FCofNewUnit": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"CargilPercent": "",
+
+			"NCONatcost": [{
+				"key": "NCON at Cost",
+				"value": "NCON at Cost"
+			}, {
+				"key": "NCON at Equity",
+				"value": "NCON at Equity"
+			}],
+			"BusinessJustification": "",
+			"CurrencyPrimaryCashFlow": [{
+				"key": "CAD",
+				"value": "CAD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowsForRemittance": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPricesByLocalCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPriceExcRates": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarActiveLocalSalesProdSer": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarProdSerSolLocally": "",
+			"SalesMarProdSerSolToOthCountries": "",
+			"SalesMarSalesDenominated": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"ExpRawMatLocCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"ExpRawMatUS": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"CurrFinanceObtained": [{
+					"key": "USD",
+					"value": "USD"
+				}, {
+					"key": "AUD",
+					"value": "AUD"
+				}, {
+					"key": "CAD",
+					"value": "CAD"
+				}
+
+			],
+			"DateIsPrimSer": [{
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}
+
+			],
+			"PrimCashFlow": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowRem": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AllLineDes": "",
+			"AlloPurp": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AlloType": [{
+				"key": "Distribution",
+				"value": "Distribution"
+			}, {
+				"key": "Assessment",
+				"value": "Assessment"
+			}],
+			"EffecDate": "",
+			"UnitAgreeAlloc": [{
+				"key": "Universal Allocation",
+				"value": "Universal Allocation"
+			}, {
+				"key": "Run Allocation",
+				"value": "Run Allocation"
+			}],
+			"BookUnitFunCostId": [{
+				"key": "1018",
+				"value": "1018"
+			}, {
+				"key": "1099",
+				"value": "1099"
+			}],
+			"BookLevFRPLAccount": [{
+				"key": "FR Account",
+				"value": "FR Account"
+			}, {
+				"key": "PL Account",
+				"value": "PL Account"
+			}],
+			"YTDDollarAlloc": [{
+				"key": "$100k-$250k",
+				"value": "$100k-$250k"
+			}, {
+				"key": "$250k-$450k",
+				"value": "$250k-$450k"
+			}],
+			"BusinessGroupToUnit": [{
+				"key": "Blue Jays",
+				"value": "Blue Jays"
+			}, {
+				"key": "Evil Masterminds",
+				"value": "Evil Masterminds"
+			}, {
+				"key": "Gritty Goblins",
+				"value": "Gritty Goblins"
+			}],
+			"CountryToUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "Canada",
+				"value": "Canada"
+			}, {
+				"key": "India",
+				"value": "India"
+			}],
+			"ToUnit": [{
+					"key": "Mexico",
+					"value": "Mexico"
+				}, {
+					"key": "Bahrain",
+					"value": "Bahrain"
+				}, {
+					"key": "Bolivia",
+					"value": "Bolivia"
+				}
+
+			],
+			"ToUnitFuncCostID": [{
+				"key": "1212",
+				"value": "1212"
+			}, {
+				"key": "9865",
+				"value": "9865"
+			}],
+			"AlloBusiJus": ""
+
+		}, 
+		{   "RequestType":"New Reporting Unit",
+			"RequestDescription": "Fine Foods Aquisition",
+			"Requestor": "Andy Fitzgibbons",
+			"DateSubmitted": "05/23/2020",
+			"Status": "Not Started",
+			"AssignedTo": "David Smith",
+			"ItemId": "104",
+			"RequestorItem": "104",
+			"RequestId": "1825756",
+			"NewUnitName": "Reporting Unit",
+				"Priority":"Medium",
+					"BusinessReasonSelected":"Current Account",
+			"ReferenceUnitSelected":"ASD 001",
+			"BusinessGroupCodeSelected":"BSGC",
+			"CountryOfNewUnitSelected":"Germany",
+			"FCUnittoholdInvestmentinNewUnitSelected":"GER",
+			"FCofNewUnitSelected":"USD",
+			"NCONatcostSelected":"NCON at Cost",
+			"CurrencyPrimaryCashFlowSelected":"CAD",
+			"CashFlowsForRemittanceSelected":"Yes",
+			"SalesPricesByLocalCondSelected":"Yes",
+			"SalesPriceExcRatesSelected":"Yes",
+			"SalesMarActiveLocalSalesProdSerSelected":"Yes",
+			"SalesMarSalesDenominatedSelected":"USD",
+			"ExpRawMatLocCondSelected":"Yes",
+			"ExpRawMatUSSelected":"Yes",
+			"CurrFinanceObtainedSelected":"USD",
+			"PrimCashFlowSelected":"Yes",
+			"CashFlowRemSelected":"Yes",
+			
+			"AlloPurpSelected":"Yes",
+			"AlloTypeSelected":"Distribution",
+			"UnitAgreeAllocSelected":"Universal Allocation",
+			"BookUnitFunCostIdSelected":"1018",
+			"BookLevFRPLAccountSelected":"FR Account",
+			"YTDDollarAllocSelected":"$100k-$250k",
+			"BusinessGroupToUnitSelected":"Blue Jays",
+			"CountryToUnitSelected":"Germany",
+			"ToUnitSelected":"Mexico",
+			"ToUnitFuncCostIDSelected":"1212",
+			"BusinessReason": [{
+				"key": "Current Account",
+				"value": "Current Account"
+			}, {
+				"key": "Bill Payments",
+				"value": "Bill Payments"
+			}],
+			"ReferenceUnit": [{
+				"key": "ASD 001",
+				"value": "ASD 001"
+			}, {
+				"key": "BUB 900",
+				"value": "BUB 900"
+			}],
+			"EffectiveDate": "",
+
+			"BusinessGroupCode": [{
+				"key": "BSGC",
+				"value": "BSGC"
+			}, {
+				"key": "SADAS",
+				"value": "SADAS"
+			}],
+			"CountryOfNewUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "France",
+				"value": "France"
+
+			}, {
+				"key": "United Kingdom",
+				"value": "United Kingdom"
+			}],
+			"FCUnittoholdInvestmentinNewUnit": [{
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"FCofNewUnit": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"CargilPercent": "",
+
+			"NCONatcost": [{
+				"key": "NCON at Cost",
+				"value": "NCON at Cost"
+			}, {
+				"key": "NCON at Equity",
+				"value": "NCON at Equity"
+			}],
+			"BusinessJustification": "",
+			"CurrencyPrimaryCashFlow": [{
+				"key": "CAD",
+				"value": "CAD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowsForRemittance": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPricesByLocalCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPriceExcRates": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarActiveLocalSalesProdSer": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarProdSerSolLocally": "",
+			"SalesMarProdSerSolToOthCountries": "",
+			"SalesMarSalesDenominated": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"ExpRawMatLocCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"ExpRawMatUS": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"CurrFinanceObtained": [{
+					"key": "USD",
+					"value": "USD"
+				}, {
+					"key": "AUD",
+					"value": "AUD"
+				}, {
+					"key": "CAD",
+					"value": "CAD"
+				}
+
+			],
+			"DateIsPrimSer": [{
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}
+
+			],
+			"PrimCashFlow": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowRem": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AllLineDes": "",
+			"AlloPurp": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AlloType": [{
+				"key": "Distribution",
+				"value": "Distribution"
+			}, {
+				"key": "Assessment",
+				"value": "Assessment"
+			}],
+			"EffecDate": "",
+			"UnitAgreeAlloc": [{
+				"key": "Universal Allocation",
+				"value": "Universal Allocation"
+			}, {
+				"key": "Run Allocation",
+				"value": "Run Allocation"
+			}],
+			"BookUnitFunCostId": [{
+				"key": "1018",
+				"value": "1018"
+			}, {
+				"key": "1099",
+				"value": "1099"
+			}],
+			"BookLevFRPLAccount": [{
+				"key": "FR Account",
+				"value": "FR Account"
+			}, {
+				"key": "PL Account",
+				"value": "PL Account"
+			}],
+			"YTDDollarAlloc": [{
+				"key": "$100k-$250k",
+				"value": "$100k-$250k"
+			}, {
+				"key": "$250k-$450k",
+				"value": "$250k-$450k"
+			}],
+			"BusinessGroupToUnit": [{
+				"key": "Blue Jays",
+				"value": "Blue Jays"
+			}, {
+				"key": "Evil Masterminds",
+				"value": "Evil Masterminds"
+			}, {
+				"key": "Gritty Goblins",
+				"value": "Gritty Goblins"
+			}],
+			"CountryToUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "Canada",
+				"value": "Canada"
+			}, {
+				"key": "India",
+				"value": "India"
+			}],
+			"ToUnit": [{
+					"key": "Mexico",
+					"value": "Mexico"
+				}, {
+					"key": "Bahrain",
+					"value": "Bahrain"
+				}, {
+					"key": "Bolivia",
+					"value": "Bolivia"
+				}
+
+			],
+			"ToUnitFuncCostID": [{
+				"key": "1212",
+				"value": "1212"
+			}, {
+				"key": "9865",
+				"value": "9865"
+			}],
+			"AlloBusiJus": ""
+
+		}, 
+		{   "RequestType":"New Reporting Unit",
+			"RequestDescription": "Fine Foods Aquisition",
+			
+			"Requestor": "Andy Fitzgibbons",
+			"DateSubmitted": "05/23/2020",
+			"Status": "Not Started",
+			"AssignedTo": "David Smith",
+			"ItemId": "105",
+			"RequestorItem": "105",
+			"RequestId": "1825756",
+			"NewUnitName": "Reporting Unit",
+				"Priority":"Medium",
+					"BusinessReasonSelected":"Current Account",
+			"ReferenceUnitSelected":"ASD 001",
+			"BusinessGroupCodeSelected":"BSGC",
+			"CountryOfNewUnitSelected":"Germany",
+			"FCUnittoholdInvestmentinNewUnitSelected":"GER",
+			"FCofNewUnitSelected":"USD",
+			"NCONatcostSelected":"NCON at Cost",
+			"CurrencyPrimaryCashFlowSelected":"CAD",
+			"CashFlowsForRemittanceSelected":"Yes",
+			"SalesPricesByLocalCondSelected":"Yes",
+			"SalesPriceExcRatesSelected":"Yes",
+			"SalesMarActiveLocalSalesProdSerSelected":"Yes",
+			"SalesMarSalesDenominatedSelected":"USD",
+			"ExpRawMatLocCondSelected":"Yes",
+			"ExpRawMatUSSelected":"Yes",
+			"CurrFinanceObtainedSelected":"USD",
+			"PrimCashFlowSelected":"Yes",
+			"CashFlowRemSelected":"Yes",
+			
+			"AlloPurpSelected":"Yes",
+			"AlloTypeSelected":"Distribution",
+			"UnitAgreeAllocSelected":"Universal Allocation",
+			"BookUnitFunCostIdSelected":"1018",
+			"BookLevFRPLAccountSelected":"FR Account",
+			"YTDDollarAllocSelected":"$100k-$250k",
+			"BusinessGroupToUnitSelected":"Blue Jays",
+			"CountryToUnitSelected":"Germany",
+			"ToUnitSelected":"Mexico",
+			"ToUnitFuncCostIDSelected":"1212",
+			"BusinessReason": [{
+				"key": "Current Account",
+				"value": "Current Account"
+			}, {
+				"key": "Bill Payments",
+				"value": "Bill Payments"
+			}],
+			"ReferenceUnit": [{
+				"key": "ASD 001",
+				"value": "ASD 001"
+			}, {
+				"key": "BUB 900",
+				"value": "BUB 900"
+			}],
+			"EffectiveDate": "",
+
+			"BusinessGroupCode": [{
+				"key": "BSGC",
+				"value": "BSGC"
+			}, {
+				"key": "SADAS",
+				"value": "SADAS"
+			}],
+			"CountryOfNewUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "France",
+				"value": "France"
+
+			}, {
+				"key": "United Kingdom",
+				"value": "United Kingdom"
+			}],
+			"FCUnittoholdInvestmentinNewUnit": [{
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"FCofNewUnit": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"CargilPercent": "",
+
+			"NCONatcost": [{
+				"key": "NCON at Cost",
+				"value": "NCON at Cost"
+			}, {
+				"key": "NCON at Equity",
+				"value": "NCON at Equity"
+			}],
+			"BusinessJustification": "",
+			"CurrencyPrimaryCashFlow": [{
+				"key": "CAD",
+				"value": "CAD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowsForRemittance": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPricesByLocalCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPriceExcRates": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarActiveLocalSalesProdSer": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarProdSerSolLocally": "",
+			"SalesMarProdSerSolToOthCountries": "",
+			"SalesMarSalesDenominated": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"ExpRawMatLocCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"ExpRawMatUS": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"CurrFinanceObtained": [{
+					"key": "USD",
+					"value": "USD"
+				}, {
+					"key": "AUD",
+					"value": "AUD"
+				}, {
+					"key": "CAD",
+					"value": "CAD"
+				}
+
+			],
+			"DateIsPrimSer": [{
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}
+
+			],
+			"PrimCashFlow": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowRem": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AllLineDes": "",
+			"AlloPurp": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AlloType": [{
+				"key": "Distribution",
+				"value": "Distribution"
+			}, {
+				"key": "Assessment",
+				"value": "Assessment"
+			}],
+			"EffecDate": "",
+			"UnitAgreeAlloc": [{
+				"key": "Universal Allocation",
+				"value": "Universal Allocation"
+			}, {
+				"key": "Run Allocation",
+				"value": "Run Allocation"
+			}],
+			"BookUnitFunCostId": [{
+				"key": "1018",
+				"value": "1018"
+			}, {
+				"key": "1099",
+				"value": "1099"
+			}],
+			"BookLevFRPLAccount": [{
+				"key": "FR Account",
+				"value": "FR Account"
+			}, {
+				"key": "PL Account",
+				"value": "PL Account"
+			}],
+			"YTDDollarAlloc": [{
+				"key": "$100k-$250k",
+				"value": "$100k-$250k"
+			}, {
+				"key": "$250k-$450k",
+				"value": "$250k-$450k"
+			}],
+			"BusinessGroupToUnit": [{
+				"key": "Blue Jays",
+				"value": "Blue Jays"
+			}, {
+				"key": "Evil Masterminds",
+				"value": "Evil Masterminds"
+			}, {
+				"key": "Gritty Goblins",
+				"value": "Gritty Goblins"
+			}],
+			"CountryToUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "Canada",
+				"value": "Canada"
+			}, {
+				"key": "India",
+				"value": "India"
+			}],
+			"ToUnit": [{
+					"key": "Mexico",
+					"value": "Mexico"
+				}, {
+					"key": "Bahrain",
+					"value": "Bahrain"
+				}, {
+					"key": "Bolivia",
+					"value": "Bolivia"
+				}
+
+			],
+			"ToUnitFuncCostID": [{
+				"key": "1212",
+				"value": "1212"
+			}, {
+				"key": "9865",
+				"value": "9865"
+			}],
+			"AlloBusiJus": ""
+
+		}]
+	}, 
+	{    
+	    "RequestType":"Submitted",
+		"RequestId": "1825800",
+		"ItemId": "101",
+		"NewUnitName": "New Unit Name",
+		"RequestDescription": "Update to Unit#22838874",
+		"BusinessReason": "Business Reason",
+		"DateSubmitted": "05/23/20",
+		"EffectiveDate": "06/18/20",
+		"Priority": "High",
+		"Status": "Submitted",
+		"RequestorItem": "101",
+		"Requestor": "Clara Taylor",
+		"AssignedTo": "David Smith",
+		
+		"NoOfItems": 1,
+		"Items": [
+			{
+			"RequestDescription": "Update to Unit#22838874",
+				"Requestor": "Andy Fitzgibbons",
+			"DateSubmitted": "05/23/2020",
+			"Status": "Not Started",
+			"AssignedTo": "David Smith",
+			"Priority":"Medium",
+			"RequestType":"New Reporting Unit",
+			"RequestId": "1825800",
+			"ItemId": "101",
+			"RequestorItem": "101",
+			"NewUnitName": "Reporting Unit",
+				"BusinessReasonSelected":"Current Account",
+			"ReferenceUnitSelected":"ASD 001",
+			"BusinessGroupCodeSelected":"BSGC",
+			"CountryOfNewUnitSelected":"Germany",
+			"FCUnittoholdInvestmentinNewUnitSelected":"GER",
+			"FCofNewUnitSelected":"USD",
+			"NCONatcostSelected":"NCON at Cost",
+			"CurrencyPrimaryCashFlowSelected":"CAD",
+			"CashFlowsForRemittanceSelected":"Yes",
+			"SalesPricesByLocalCondSelected":"Yes",
+			"SalesPriceExcRatesSelected":"Yes",
+			"SalesMarActiveLocalSalesProdSerSelected":"Yes",
+			"SalesMarSalesDenominatedSelected":"USD",
+			"ExpRawMatLocCondSelected":"Yes",
+			"ExpRawMatUSSelected":"Yes",
+			"CurrFinanceObtainedSelected":"USD",
+			"PrimCashFlowSelected":"Yes",
+			"CashFlowRemSelected":"Yes",
+			
+			"AlloPurpSelected":"Yes",
+			"AlloTypeSelected":"Distribution",
+			"UnitAgreeAllocSelected":"Universal Allocation",
+			"BookUnitFunCostIdSelected":"1018",
+			"BookLevFRPLAccountSelected":"FR Account",
+			"YTDDollarAllocSelected":"$100k-$250k",
+			"BusinessGroupToUnitSelected":"Blue Jays",
+			"CountryToUnitSelected":"Germany",
+			"ToUnitSelected":"Mexico",
+			"ToUnitFuncCostIDSelected":"1212",
+			"BusinessReason": [{
+				"key": "Current Account",
+				"value": "Current Account"
+			}, {
+				"key": "Bill Payments",
+				"value": "Bill Payments"
+			}],
+			"ReferenceUnit": [{
+				"key": "ASD 001",
+				"value": "ASD 001"
+			}, {
+				"key": "BUB 900",
+				"value": "BUB 900"
+			}],
+			"EffectiveDate": "",
+
+			"BusinessGroupCode": [{
+				"key": "BSGC",
+				"value": "BSGC"
+			}, {
+				"key": "SADAS",
+				"value": "SADAS"
+			}],
+			"CountryOfNewUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "France",
+				"value": "France"
+
+			}, {
+				"key": "United Kingdom",
+				"value": "United Kingdom"
+			}],
+			"FCUnittoholdInvestmentinNewUnit": [{
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"FCofNewUnit": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"CargilPercent": "",
+
+			"NCONatcost": [{
+				"key": "NCON at Cost",
+				"value": "NCON at Cost"
+			}, {
+				"key": "NCON at Equity",
+				"value": "NCON at Equity"
+			}],
+			"BusinessJustification": "",
+			"CurrencyPrimaryCashFlow": [{
+				"key": "CAD",
+				"value": "CAD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowsForRemittance": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPricesByLocalCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPriceExcRates": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarActiveLocalSalesProdSer": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarProdSerSolLocally": "",
+			"SalesMarProdSerSolToOthCountries": "",
+			"SalesMarSalesDenominated": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"ExpRawMatLocCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"ExpRawMatUS": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"CurrFinanceObtained": [{
+					"key": "USD",
+					"value": "USD"
+				}, {
+					"key": "AUD",
+					"value": "AUD"
+				}, {
+					"key": "CAD",
+					"value": "CAD"
+				}
+
+			],
+			"DateIsPrimSer": [{
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}
+
+			],
+			"PrimCashFlow": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowRem": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AllLineDes": "",
+			"AlloPurp": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AlloType": [{
+				"key": "Distribution",
+				"value": "Distribution"
+			}, {
+				"key": "Assessment",
+				"value": "Assessment"
+			}],
+			"EffecDate": "",
+			"UnitAgreeAlloc": [{
+				"key": "Universal Allocation",
+				"value": "Universal Allocation"
+			}, {
+				"key": "Run Allocation",
+				"value": "Run Allocation"
+			}],
+			"BookUnitFunCostId": [{
+				"key": "1018",
+				"value": "1018"
+			}, {
+				"key": "1099",
+				"value": "1099"
+			}],
+			"BookLevFRPLAccount": [{
+				"key": "FR Account",
+				"value": "FR Account"
+			}, {
+				"key": "PL Account",
+				"value": "PL Account"
+			}],
+			"YTDDollarAlloc": [{
+				"key": "$100k-$250k",
+				"value": "$100k-$250k"
+			}, {
+				"key": "$250k-$450k",
+				"value": "$250k-$450k"
+			}],
+			"BusinessGroupToUnit": [{
+				"key": "Blue Jays",
+				"value": "Blue Jays"
+			}, {
+				"key": "Evil Masterminds",
+				"value": "Evil Masterminds"
+			}, {
+				"key": "Gritty Goblins",
+				"value": "Gritty Goblins"
+			}],
+			"CountryToUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "Canada",
+				"value": "Canada"
+			}, {
+				"key": "India",
+				"value": "India"
+			}],
+			"ToUnit": [{
+					"key": "Mexico",
+					"value": "Mexico"
+				}, {
+					"key": "Bahrain",
+					"value": "Bahrain"
+				}, {
+					"key": "Bolivia",
+					"value": "Bolivia"
+				}
+
+			],
+			"ToUnitFuncCostID": [{
+				"key": "1212",
+				"value": "1212"
+			}, {
+				"key": "9865",
+				"value": "9865"
+			}],
+			"AlloBusiJus": ""
+
+		}]
+	}, 
+	{   "RequestType":"Submitted",
+		"RequestId": "1830488",
+		"ItemId": "101",
+		"NewUnitName": "New Unit Name",
+		"RequestDescription": "New Request",
+		"BusinessReason": "Business Reason",
+		"DateSubmitted": "05/26/20",
+		"EffectiveDate": "06/09/20",
+		"Priority": "Critical",
+		"Status": "Submitted",
+		"RequestorItem": "101",
+		"Requestor": "Mike Brian",
+		"AssignedTo": "Laura Sharon",
+		"NoOfItems": 1,
+		"Items": [
+			{
+				"RequestDescription": "New Request",
+				"Requestor": "Andy Fitzgibbons",
+			"DateSubmitted": "05/23/2020",
+			"Status": "Not Started",
+			"AssignedTo": "David Smith",
+			"Priority":"Medium",
+			"RequestType":"New Reporting Unit",
+			"RequestId": "1830488",
+			"ItemId": "101",
+			"RequestorItem": "101",
+			"NewUnitName": "Reporting Unit",
+				"BusinessReasonSelected":"Current Account",
+			"ReferenceUnitSelected":"ASD 001",
+			"BusinessGroupCodeSelected":"BSGC",
+			"CountryOfNewUnitSelected":"Germany",
+			"FCUnittoholdInvestmentinNewUnitSelected":"GER",
+			"FCofNewUnitSelected":"USD",
+			"NCONatcostSelected":"NCON at Cost",
+			"CurrencyPrimaryCashFlowSelected":"CAD",
+			"CashFlowsForRemittanceSelected":"Yes",
+			"SalesPricesByLocalCondSelected":"Yes",
+			"SalesPriceExcRatesSelected":"Yes",
+			"SalesMarActiveLocalSalesProdSerSelected":"Yes",
+			"SalesMarSalesDenominatedSelected":"USD",
+			"ExpRawMatLocCondSelected":"Yes",
+			"ExpRawMatUSSelected":"Yes",
+			"CurrFinanceObtainedSelected":"USD",
+			"PrimCashFlowSelected":"Yes",
+			"CashFlowRemSelected":"Yes",
+			
+			"AlloPurpSelected":"Yes",
+			"AlloTypeSelected":"Distribution",
+			"UnitAgreeAllocSelected":"Universal Allocation",
+			"BookUnitFunCostIdSelected":"1018",
+			"BookLevFRPLAccountSelected":"FR Account",
+			"YTDDollarAllocSelected":"$100k-$250k",
+			"BusinessGroupToUnitSelected":"Blue Jays",
+			"CountryToUnitSelected":"Germany",
+			"ToUnitSelected":"Mexico",
+			"ToUnitFuncCostIDSelected":"1212",
+			"BusinessReason": [{
+				"key": "Current Account",
+				"value": "Current Account"
+			}, {
+				"key": "Bill Payments",
+				"value": "Bill Payments"
+			}],
+			"ReferenceUnit": [{
+				"key": "ASD 001",
+				"value": "ASD 001"
+			}, {
+				"key": "BUB 900",
+				"value": "BUB 900"
+			}],
+			"EffectiveDate": "7/21/21",
+
+			"BusinessGroupCode": [{
+				"key": "BSGC",
+				"value": "BSGC"
+			}, {
+				"key": "SADAS",
+				"value": "SADAS"
+			}],
+			"CountryOfNewUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "France",
+				"value": "France"
+
+			}, {
+				"key": "United Kingdom",
+				"value": "United Kingdom"
+			}],
+			"FCUnittoholdInvestmentinNewUnit": [{
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"FCofNewUnit": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"CargilPercent": "",
+
+			"NCONatcost": [{
+				"key": "NCON at Cost",
+				"value": "NCON at Cost"
+			}, {
+				"key": "NCON at Equity",
+				"value": "NCON at Equity"
+			}],
+			"BusinessJustification": "",
+			"CurrencyPrimaryCashFlow": [{
+				"key": "CAD",
+				"value": "CAD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowsForRemittance": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPricesByLocalCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPriceExcRates": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarActiveLocalSalesProdSer": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarProdSerSolLocally": "",
+			"SalesMarProdSerSolToOthCountries": "",
+			"SalesMarSalesDenominated": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"ExpRawMatLocCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"ExpRawMatUS": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"CurrFinanceObtained": [{
+					"key": "USD",
+					"value": "USD"
+				}, {
+					"key": "AUD",
+					"value": "AUD"
+				}, {
+					"key": "CAD",
+					"value": "CAD"
+				}
+
+			],
+			"DateIsPrimSer": [{
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}
+
+			],
+			"PrimCashFlow": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowRem": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AllLineDes": "",
+			"AlloPurp": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AlloType": [{
+				"key": "Distribution",
+				"value": "Distribution"
+			}, {
+				"key": "Assessment",
+				"value": "Assessment"
+			}],
+			"EffecDate": "",
+			"UnitAgreeAlloc": [{
+				"key": "Universal Allocation",
+				"value": "Universal Allocation"
+			}, {
+				"key": "Run Allocation",
+				"value": "Run Allocation"
+			}],
+			"BookUnitFunCostId": [{
+				"key": "1018",
+				"value": "1018"
+			}, {
+				"key": "1099",
+				"value": "1099"
+			}],
+			"BookLevFRPLAccount": [{
+				"key": "FR Account",
+				"value": "FR Account"
+			}, {
+				"key": "PL Account",
+				"value": "PL Account"
+			}],
+			"YTDDollarAlloc": [{
+				"key": "$100k-$250k",
+				"value": "$100k-$250k"
+			}, {
+				"key": "$250k-$450k",
+				"value": "$250k-$450k"
+			}],
+			"BusinessGroupToUnit": [{
+				"key": "Blue Jays",
+				"value": "Blue Jays"
+			}, {
+				"key": "Evil Masterminds",
+				"value": "Evil Masterminds"
+			}, {
+				"key": "Gritty Goblins",
+				"value": "Gritty Goblins"
+			}],
+			"CountryToUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "Canada",
+				"value": "Canada"
+			}, {
+				"key": "India",
+				"value": "India"
+			}],
+			"ToUnit": [{
+					"key": "Mexico",
+					"value": "Mexico"
+				}, {
+					"key": "Bahrain",
+					"value": "Bahrain"
+				}, {
+					"key": "Bolivia",
+					"value": "Bolivia"
+				}
+
+			],
+			"ToUnitFuncCostID": [{
+				"key": "1212",
+				"value": "1212"
+			}, {
+				"key": "9865",
+				"value": "9865"
+			}],
+			"AlloBusiJus": ""
+
+		}]
+
+	}, 
+	{   
+		"RequestType":"Submitted",
+		"RequestId": "1830490",
+		"ItemId": "101",
+		"NewUnitName": "New Unit Name",
+		"RequestDescription": "Deactivate Unit #22897651",
+		"BusinessReason": "Business Reason",
+		"DateSubmitted": "05/27/2020",
+		"EffectiveDate": "07/01/2020",
+		"Priority": "Medium",
+		"Status": "Submitted",
+		"RequestorItem": "101",
+		"Requestor": "Frank Ruth",
+		"AssigbedTo": "Eric Ryan",
+		"NoOfItems": 1,
+		"Items": [{
+				"Requestor": "Andy Fitzgibbons",
+			"DateSubmitted": "05/23/2020",
+			"Status": "Not Started",
+			"AssignedTo": "David Smith",
+			"Priority":"Medium",
+			
+			"RequestType":"New Reporting Unit",
+			"RequestId": "1830490",
+			"ItemId": "101",
+			"RequestorItem": "101",
+			"NewUnitName": "Reporting Unit",
+				"BusinessReasonSelected":"Current Account",
+			"ReferenceUnitSelected":"ASD 001",
+			"BusinessGroupCodeSelected":"BSGC",
+			"CountryOfNewUnitSelected":"Germany",
+			"FCUnittoholdInvestmentinNewUnitSelected":"GER",
+			"FCofNewUnitSelected":"USD",
+			"NCONatcostSelected":"NCON at Cost",
+			"CurrencyPrimaryCashFlowSelected":"CAD",
+			"CashFlowsForRemittanceSelected":"Yes",
+			"SalesPricesByLocalCondSelected":"Yes",
+			"SalesPriceExcRatesSelected":"Yes",
+			"SalesMarActiveLocalSalesProdSerSelected":"Yes",
+			"SalesMarSalesDenominatedSelected":"USD",
+			"ExpRawMatLocCondSelected":"Yes",
+			"ExpRawMatUSSelected":"Yes",
+			"CurrFinanceObtainedSelected":"USD",
+			"PrimCashFlowSelected":"Yes",
+			"CashFlowRemSelected":"Yes",
+			
+			"AlloPurpSelected":"Yes",
+			"AlloTypeSelected":"Distribution",
+			"UnitAgreeAllocSelected":"Universal Allocation",
+			"BookUnitFunCostIdSelected":"1018",
+			"BookLevFRPLAccountSelected":"FR Account",
+			"YTDDollarAllocSelected":"$100k-$250k",
+			"BusinessGroupToUnitSelected":"Blue Jays",
+			"CountryToUnitSelected":"Germany",
+			"ToUnitSelected":"Mexico",
+			"ToUnitFuncCostIDSelected":"1212",
+			"BusinessReason": [{
+				"key": "Current Account",
+				"value": "Current Account"
+			}, {
+				"key": "Bill Payments",
+				"value": "Bill Payments"
+			}],
+			"ReferenceUnit": [{
+				"key": "ASD 001",
+				"value": "ASD 001"
+			}, {
+				"key": "BUB 900",
+				"value": "BUB 900"
+			}],
+			"EffectiveDate": "",
+
+			"BusinessGroupCode": [{
+				"key": "BSGC",
+				"value": "BSGC"
+			}, {
+				"key": "SADAS",
+				"value": "SADAS"
+			}],
+			"CountryOfNewUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "France",
+				"value": "France"
+
+			}, {
+				"key": "United Kingdom",
+				"value": "United Kingdom"
+			}],
+			"FCUnittoholdInvestmentinNewUnit": [{
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"FCofNewUnit": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"CargilPercent": "",
+
+			"NCONatcost": [{
+				"key": "NCON at Cost",
+				"value": "NCON at Cost"
+			}, {
+				"key": "NCON at Equity",
+				"value": "NCON at Equity"
+			}],
+			"BusinessJustification": "",
+			"CurrencyPrimaryCashFlow": [{
+				"key": "CAD",
+				"value": "CAD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowsForRemittance": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPricesByLocalCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPriceExcRates": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarActiveLocalSalesProdSer": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarProdSerSolLocally": "",
+			"SalesMarProdSerSolToOthCountries": "",
+			"SalesMarSalesDenominated": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"ExpRawMatLocCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"ExpRawMatUS": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"CurrFinanceObtained": [{
+					"key": "USD",
+					"value": "USD"
+				}, {
+					"key": "AUD",
+					"value": "AUD"
+				}, {
+					"key": "CAD",
+					"value": "CAD"
+				}
+
+			],
+			"DateIsPrimSer": [{
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}
+
+			],
+			"PrimCashFlow": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowRem": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AllLineDes": "",
+			"AlloPurp": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AlloType": [{
+				"key": "Distribution",
+				"value": "Distribution"
+			}, {
+				"key": "Assessment",
+				"value": "Assessment"
+			}],
+			"EffecDate": "",
+			"UnitAgreeAlloc": [{
+				"key": "Universal Allocation",
+				"value": "Universal Allocation"
+			}, {
+				"key": "Run Allocation",
+				"value": "Run Allocation"
+			}],
+			"BookUnitFunCostId": [{
+				"key": "1018",
+				"value": "1018"
+			}, {
+				"key": "1099",
+				"value": "1099"
+			}],
+			"BookLevFRPLAccount": [{
+				"key": "FR Account",
+				"value": "FR Account"
+			}, {
+				"key": "PL Account",
+				"value": "PL Account"
+			}],
+			"YTDDollarAlloc": [{
+				"key": "$100k-$250k",
+				"value": "$100k-$250k"
+			}, {
+				"key": "$250k-$450k",
+				"value": "$250k-$450k"
+			}],
+			"BusinessGroupToUnit": [{
+				"key": "Blue Jays",
+				"value": "Blue Jays"
+			}, {
+				"key": "Evil Masterminds",
+				"value": "Evil Masterminds"
+			}, {
+				"key": "Gritty Goblins",
+				"value": "Gritty Goblins"
+			}],
+			"CountryToUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "Canada",
+				"value": "Canada"
+			}, {
+				"key": "India",
+				"value": "India"
+			}],
+			"ToUnit": [{
+					"key": "Mexico",
+					"value": "Mexico"
+				}, {
+					"key": "Bahrain",
+					"value": "Bahrain"
+				}, {
+					"key": "Bolivia",
+					"value": "Bolivia"
+				}
+
+			],
+			"ToUnitFuncCostID": [{
+				"key": "1212",
+				"value": "1212"
+			}, {
+				"key": "9865",
+				"value": "9865"
+			}],
+			"AlloBusiJus": ""
+
+		}]
+
+	}, 
+	{
+		"RequestType":"Submitted",
+		"RequestId": "1788928",
+		"ItemId": "101",
+		"NewUnitName": "Reporting Unit",
+		"RequestDescription": "New Request",
+		"BusinessReason": "Business Reason",
+		"DateSubmitted": "03/02/2020",
+		"EffectiveDate": "05/01/2020",
+		"Priority": "Medium",
+	"Status": "Submitted",
+		"RequestorItem": "101",
+		"Requestor": "Katherine Clark",
+		"AssigbedTo": "Raymond",
+		"NoOfItems": 1,
+		"Items": [
+			{
+					"RequestDescription": "New Request",
+					"Requestor": "Andy Fitzgibbons",
+			"DateSubmitted": "05/23/2020",
+			"Status": "Not Started",
+			"AssignedTo": "David Smith",
+			"Priority":"Medium",
+			"RequestType":"New Reporting Unit",
+			"RequestId": "1788928",
+			"ItemId": "101",
+			"RequestorItem": "101",
+			"NewUnitName": "Reporting Unit",
+				"BusinessReasonSelected":"Current Account",
+			"ReferenceUnitSelected":"ASD 001",
+			"BusinessGroupCodeSelected":"BSGC",
+			"CountryOfNewUnitSelected":"Germany",
+			"FCUnittoholdInvestmentinNewUnitSelected":"GER",
+			"FCofNewUnitSelected":"USD",
+			"NCONatcostSelected":"NCON at Cost",
+			"CurrencyPrimaryCashFlowSelected":"CAD",
+			"CashFlowsForRemittanceSelected":"Yes",
+			"SalesPricesByLocalCondSelected":"Yes",
+			"SalesPriceExcRatesSelected":"Yes",
+			"SalesMarActiveLocalSalesProdSerSelected":"Yes",
+			"SalesMarSalesDenominatedSelected":"USD",
+			"ExpRawMatLocCondSelected":"Yes",
+			"ExpRawMatUSSelected":"Yes",
+			"CurrFinanceObtainedSelected":"USD",
+			"PrimCashFlowSelected":"Yes",
+			"CashFlowRemSelected":"Yes",
+			
+			"AlloPurpSelected":"Yes",
+			"AlloTypeSelected":"Distribution",
+			"UnitAgreeAllocSelected":"Universal Allocation",
+			"BookUnitFunCostIdSelected":"1018",
+			"BookLevFRPLAccountSelected":"FR Account",
+			"YTDDollarAllocSelected":"$100k-$250k",
+			"BusinessGroupToUnitSelected":"Blue Jays",
+			"CountryToUnitSelected":"Germany",
+			"ToUnitSelected":"Mexico",
+			"ToUnitFuncCostIDSelected":"1212",
+			"BusinessReason": [{
+				"key": "Current Account",
+				"value": "Current Account"
+			}, {
+				"key": "Bill Payments",
+				"value": "Bill Payments"
+			}],
+			"ReferenceUnit": [{
+				"key": "ASD 001",
+				"value": "ASD 001"
+			}, {
+				"key": "BUB 900",
+				"value": "BUB 900"
+			}],
+			"EffectiveDate": "",
+
+			"BusinessGroupCode": [{
+				"key": "BSGC",
+				"value": "BSGC"
+			}, {
+				"key": "SADAS",
+				"value": "SADAS"
+			}],
+			"CountryOfNewUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "France",
+				"value": "France"
+
+			}, {
+				"key": "United Kingdom",
+				"value": "United Kingdom"
+			}],
+			"FCUnittoholdInvestmentinNewUnit": [{
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"FCofNewUnit": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"CargilPercent": "",
+
+			"NCONatcost": [{
+				"key": "NCON at Cost",
+				"value": "NCON at Cost"
+			}, {
+				"key": "NCON at Equity",
+				"value": "NCON at Equity"
+			}],
+			"BusinessJustification": "",
+			"CurrencyPrimaryCashFlow": [{
+				"key": "CAD",
+				"value": "CAD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowsForRemittance": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPricesByLocalCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPriceExcRates": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarActiveLocalSalesProdSer": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarProdSerSolLocally": "",
+			"SalesMarProdSerSolToOthCountries": "",
+			"SalesMarSalesDenominated": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"ExpRawMatLocCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"ExpRawMatUS": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"CurrFinanceObtained": [{
+					"key": "USD",
+					"value": "USD"
+				}, {
+					"key": "AUD",
+					"value": "AUD"
+				}, {
+					"key": "CAD",
+					"value": "CAD"
+				}
+
+			],
+			"DateIsPrimSer": [{
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}
+
+			],
+			"PrimCashFlow": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowRem": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AllLineDes": "",
+			"AlloPurp": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AlloType": [{
+				"key": "Distribution",
+				"value": "Distribution"
+			}, {
+				"key": "Assessment",
+				"value": "Assessment"
+			}],
+			"EffecDate": "",
+			"UnitAgreeAlloc": [{
+				"key": "Universal Allocation",
+				"value": "Universal Allocation"
+			}, {
+				"key": "Run Allocation",
+				"value": "Run Allocation"
+			}],
+			"BookUnitFunCostId": [{
+				"key": "1018",
+				"value": "1018"
+			}, {
+				"key": "1099",
+				"value": "1099"
+			}],
+			"BookLevFRPLAccount": [{
+				"key": "FR Account",
+				"value": "FR Account"
+			}, {
+				"key": "PL Account",
+				"value": "PL Account"
+			}],
+			"YTDDollarAlloc": [{
+				"key": "$100k-$250k",
+				"value": "$100k-$250k"
+			}, {
+				"key": "$250k-$450k",
+				"value": "$250k-$450k"
+			}],
+			"BusinessGroupToUnit": [{
+				"key": "Blue Jays",
+				"value": "Blue Jays"
+			}, {
+				"key": "Evil Masterminds",
+				"value": "Evil Masterminds"
+			}, {
+				"key": "Gritty Goblins",
+				"value": "Gritty Goblins"
+			}],
+			"CountryToUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "Canada",
+				"value": "Canada"
+			}, {
+				"key": "India",
+				"value": "India"
+			}],
+			"ToUnit": [{
+					"key": "Mexico",
+					"value": "Mexico"
+				}, {
+					"key": "Bahrain",
+					"value": "Bahrain"
+				}, {
+					"key": "Bolivia",
+					"value": "Bolivia"
+				}
+
+			],
+			"ToUnitFuncCostID": [{
+				"key": "1212",
+				"value": "1212"
+			}, {
+				"key": "9865",
+				"value": "9865"
+			}],
+			"AlloBusiJus": ""
+
+		}]
+	}, 
+	{   "RequestType":"Submitted",
+		"RequestId": "1789100",
+		"ItemId": "101",
+		"NewUnitName": "Reporting Unit",
+		"RequestDescription": "New Request",
+		"BusinessReason": "Business Reason",
+		"DateSubmitted": "12/15/2019",
+		"EffectiveDate": "05/01/2020",
+		"Priority": "Low",
+	"Status": "Submitted",
+		"RequestorItem": "101",
+		"Requestor": "Samuel Frank",
+		"AssigbedTo": "Justin Scott",
+		"NoOfItems": 1,
+		
+		"Items": [{
+					"RequestDescription": "New Request",
+				"Requestor": "Andy Fitzgibbons",
+			"DateSubmitted": "05/23/2020",
+			"Status": "Not Started",
+			"AssignedTo": "David Smith",
+			"Priority":"Medium",
+			"RequestType":"New Reporting Unit",
+			"RequestId": "1789100",
+			"ItemId": "101",
+			"RequestorItem": "101",
+			"NewUnitName": "Reporting Unit",
+				"BusinessReasonSelected":"Current Account",
+			"ReferenceUnitSelected":"ASD 001",
+			"BusinessGroupCodeSelected":"BSGC",
+			"CountryOfNewUnitSelected":"Germany",
+			"FCUnittoholdInvestmentinNewUnitSelected":"GER",
+			"FCofNewUnitSelected":"USD",
+			"NCONatcostSelected":"NCON at Cost",
+			"CurrencyPrimaryCashFlowSelected":"CAD",
+			"CashFlowsForRemittanceSelected":"Yes",
+			"SalesPricesByLocalCondSelected":"Yes",
+			"SalesPriceExcRatesSelected":"Yes",
+			"SalesMarActiveLocalSalesProdSerSelected":"Yes",
+			"SalesMarSalesDenominatedSelected":"USD",
+			"ExpRawMatLocCondSelected":"Yes",
+			"ExpRawMatUSSelected":"Yes",
+			"CurrFinanceObtainedSelected":"USD",
+			"PrimCashFlowSelected":"Yes",
+			"CashFlowRemSelected":"Yes",
+			
+			"AlloPurpSelected":"Yes",
+			"AlloTypeSelected":"Distribution",
+			"UnitAgreeAllocSelected":"Universal Allocation",
+			"BookUnitFunCostIdSelected":"1018",
+			"BookLevFRPLAccountSelected":"FR Account",
+			"YTDDollarAllocSelected":"$100k-$250k",
+			"BusinessGroupToUnitSelected":"Blue Jays",
+			"CountryToUnitSelected":"Germany",
+			"ToUnitSelected":"Mexico",
+			"ToUnitFuncCostIDSelected":"1212",
+			"BusinessReason": [{
+				"key": "Current Account",
+				"value": "Current Account"
+			}, {
+				"key": "Bill Payments",
+				"value": "Bill Payments"
+			}],
+			"ReferenceUnit": [{
+				"key": "ASD 001",
+				"value": "ASD 001"
+			}, {
+				"key": "BUB 900",
+				"value": "BUB 900"
+			}],
+			"EffectiveDate": "",
+
+			"BusinessGroupCode": [{
+				"key": "BSGC",
+				"value": "BSGC"
+			}, {
+				"key": "SADAS",
+				"value": "SADAS"
+			}],
+			"CountryOfNewUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "France",
+				"value": "France"
+
+			}, {
+				"key": "United Kingdom",
+				"value": "United Kingdom"
+			}],
+			"FCUnittoholdInvestmentinNewUnit": [{
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"FCofNewUnit": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"CargilPercent": "",
+
+			"NCONatcost": [{
+				"key": "NCON at Cost",
+				"value": "NCON at Cost"
+			}, {
+				"key": "NCON at Equity",
+				"value": "NCON at Equity"
+			}],
+			"BusinessJustification": "",
+			"CurrencyPrimaryCashFlow": [{
+				"key": "CAD",
+				"value": "CAD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowsForRemittance": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPricesByLocalCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPriceExcRates": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarActiveLocalSalesProdSer": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarProdSerSolLocally": "",
+			"SalesMarProdSerSolToOthCountries": "",
+			"SalesMarSalesDenominated": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"ExpRawMatLocCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"ExpRawMatUS": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"CurrFinanceObtained": [{
+					"key": "USD",
+					"value": "USD"
+				}, {
+					"key": "AUD",
+					"value": "AUD"
+				}, {
+					"key": "CAD",
+					"value": "CAD"
+				}
+
+			],
+			"DateIsPrimSer": [{
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}
+
+			],
+			"PrimCashFlow": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowRem": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AllLineDes": "",
+			"AlloPurp": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AlloType": [{
+				"key": "Distribution",
+				"value": "Distribution"
+			}, {
+				"key": "Assessment",
+				"value": "Assessment"
+			}],
+			"EffecDate": "",
+			"UnitAgreeAlloc": [{
+				"key": "Universal Allocation",
+				"value": "Universal Allocation"
+			}, {
+				"key": "Run Allocation",
+				"value": "Run Allocation"
+			}],
+			"BookUnitFunCostId": [{
+				"key": "1018",
+				"value": "1018"
+			}, {
+				"key": "1099",
+				"value": "1099"
+			}],
+			"BookLevFRPLAccount": [{
+				"key": "FR Account",
+				"value": "FR Account"
+			}, {
+				"key": "PL Account",
+				"value": "PL Account"
+			}],
+			"YTDDollarAlloc": [{
+				"key": "$100k-$250k",
+				"value": "$100k-$250k"
+			}, {
+				"key": "$250k-$450k",
+				"value": "$250k-$450k"
+			}],
+			"BusinessGroupToUnit": [{
+				"key": "Blue Jays",
+				"value": "Blue Jays"
+			}, {
+				"key": "Evil Masterminds",
+				"value": "Evil Masterminds"
+			}, {
+				"key": "Gritty Goblins",
+				"value": "Gritty Goblins"
+			}],
+			"CountryToUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "Canada",
+				"value": "Canada"
+			}, {
+				"key": "India",
+				"value": "India"
+			}],
+			"ToUnit": [{
+					"key": "Mexico",
+					"value": "Mexico"
+				}, {
+					"key": "Bahrain",
+					"value": "Bahrain"
+				}, {
+					"key": "Bolivia",
+					"value": "Bolivia"
+				}
+
+			],
+			"ToUnitFuncCostID": [{
+				"key": "1212",
+				"value": "1212"
+			}, {
+				"key": "9865",
+				"value": "9865"
+			}],
+			"AlloBusiJus": ""
+
+		}]
+	},
+		{   
+		"RequestType":"With Approver",
+		"RequestId": "1789101",
+		"ItemId": "101",
+		"NewUnitName": "New Unit Name",
+		"RequestDescription": "Deactivate Unit #22897651",
+		"BusinessReason": "Business Reason",
+		"DateSubmitted": "05/27/2020",
+		"EffectiveDate": "07/01/2020",
+		"Priority": "Medium",
+		"Status": "With Approver",
+		"RequestorItem": "101",
+		"Requestor": "Frank Ruth",
+		"AssigbedTo": "Eric Ryan",
+		"NoOfItems": 1,
+		"Items": [
+			{
+				"Requestor": "Andy Fitzgibbons",
+			"DateSubmitted": "05/23/2020",
+			"Status": "Not Started",
+			"AssignedTo": "David Smith",
+			"Priority":"Medium",
+			
+			"RequestType":"New Reporting Unit",
+			"RequestId": "1789101",
+			"ItemId": "101",
+			"RequestorItem": "101",
+			"NewUnitName": "Reporting Unit",
+				"BusinessReasonSelected":"Current Account",
+			"ReferenceUnitSelected":"ASD 001",
+			"BusinessGroupCodeSelected":"BSGC",
+			"CountryOfNewUnitSelected":"Germany",
+			"FCUnittoholdInvestmentinNewUnitSelected":"GER",
+			"FCofNewUnitSelected":"USD",
+			"NCONatcostSelected":"NCON at Cost",
+			"CurrencyPrimaryCashFlowSelected":"CAD",
+			"CashFlowsForRemittanceSelected":"Yes",
+			"SalesPricesByLocalCondSelected":"Yes",
+			"SalesPriceExcRatesSelected":"Yes",
+			"SalesMarActiveLocalSalesProdSerSelected":"Yes",
+			"SalesMarSalesDenominatedSelected":"USD",
+			"ExpRawMatLocCondSelected":"Yes",
+			"ExpRawMatUSSelected":"Yes",
+			"CurrFinanceObtainedSelected":"USD",
+			"PrimCashFlowSelected":"Yes",
+			"CashFlowRemSelected":"Yes",
+			
+			"AlloPurpSelected":"Yes",
+			"AlloTypeSelected":"Distribution",
+			"UnitAgreeAllocSelected":"Universal Allocation",
+			"BookUnitFunCostIdSelected":"1018",
+			"BookLevFRPLAccountSelected":"FR Account",
+			"YTDDollarAllocSelected":"$100k-$250k",
+			"BusinessGroupToUnitSelected":"Blue Jays",
+			"CountryToUnitSelected":"Germany",
+			"ToUnitSelected":"Mexico",
+			"ToUnitFuncCostIDSelected":"1212",
+			"BusinessReason": [{
+				"key": "Current Account",
+				"value": "Current Account"
+			}, {
+				"key": "Bill Payments",
+				"value": "Bill Payments"
+			}],
+			"ReferenceUnit": [{
+				"key": "ASD 001",
+				"value": "ASD 001"
+			}, {
+				"key": "BUB 900",
+				"value": "BUB 900"
+			}],
+			"EffectiveDate": "",
+
+			"BusinessGroupCode": [{
+				"key": "BSGC",
+				"value": "BSGC"
+			}, {
+				"key": "SADAS",
+				"value": "SADAS"
+			}],
+			"CountryOfNewUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "France",
+				"value": "France"
+
+			}, {
+				"key": "United Kingdom",
+				"value": "United Kingdom"
+			}],
+			"FCUnittoholdInvestmentinNewUnit": [{
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"FCofNewUnit": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"CargilPercent": "",
+
+			"NCONatcost": [{
+				"key": "NCON at Cost",
+				"value": "NCON at Cost"
+			}, {
+				"key": "NCON at Equity",
+				"value": "NCON at Equity"
+			}],
+			"BusinessJustification": "",
+			"CurrencyPrimaryCashFlow": [{
+				"key": "CAD",
+				"value": "CAD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowsForRemittance": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPricesByLocalCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPriceExcRates": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarActiveLocalSalesProdSer": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarProdSerSolLocally": "",
+			"SalesMarProdSerSolToOthCountries": "",
+			"SalesMarSalesDenominated": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"ExpRawMatLocCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"ExpRawMatUS": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"CurrFinanceObtained": [{
+					"key": "USD",
+					"value": "USD"
+				}, {
+					"key": "AUD",
+					"value": "AUD"
+				}, {
+					"key": "CAD",
+					"value": "CAD"
+				}
+
+			],
+			"DateIsPrimSer": [{
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}
+
+			],
+			"PrimCashFlow": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowRem": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AllLineDes": "",
+			"AlloPurp": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AlloType": [{
+				"key": "Distribution",
+				"value": "Distribution"
+			}, {
+				"key": "Assessment",
+				"value": "Assessment"
+			}],
+			"EffecDate": "",
+			"UnitAgreeAlloc": [{
+				"key": "Universal Allocation",
+				"value": "Universal Allocation"
+			}, {
+				"key": "Run Allocation",
+				"value": "Run Allocation"
+			}],
+			"BookUnitFunCostId": [{
+				"key": "1018",
+				"value": "1018"
+			}, {
+				"key": "1099",
+				"value": "1099"
+			}],
+			"BookLevFRPLAccount": [{
+				"key": "FR Account",
+				"value": "FR Account"
+			}, {
+				"key": "PL Account",
+				"value": "PL Account"
+			}],
+			"YTDDollarAlloc": [{
+				"key": "$100k-$250k",
+				"value": "$100k-$250k"
+			}, {
+				"key": "$250k-$450k",
+				"value": "$250k-$450k"
+			}],
+			"BusinessGroupToUnit": [{
+				"key": "Blue Jays",
+				"value": "Blue Jays"
+			}, {
+				"key": "Evil Masterminds",
+				"value": "Evil Masterminds"
+			}, {
+				"key": "Gritty Goblins",
+				"value": "Gritty Goblins"
+			}],
+			"CountryToUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "Canada",
+				"value": "Canada"
+			}, {
+				"key": "India",
+				"value": "India"
+			}],
+			"ToUnit": [{
+					"key": "Mexico",
+					"value": "Mexico"
+				}, {
+					"key": "Bahrain",
+					"value": "Bahrain"
+				}, {
+					"key": "Bolivia",
+					"value": "Bolivia"
+				}
+
+			],
+			"ToUnitFuncCostID": [{
+				"key": "1212",
+				"value": "1212"
+			}, {
+				"key": "9865",
+				"value": "9865"
+			}],
+			"AlloBusiJus": ""
+
+		}]
+
+	}, 
+	{
+		"RequestType":"With Approver",
+		"RequestId": "1789102",
+		"ItemId": "101",
+		"NewUnitName": "Reporting Unit",
+		"RequestDescription": "New Request",
+		"BusinessReason": "Business Reason",
+		"DateSubmitted": "03/02/2020",
+		"EffectiveDate": "05/01/2020",
+		"Priority": "Medium",
+		"Status": "With Approver",
+		"RequestorItem": "101",
+		"Requestor": "Katherine Clark",
+		"AssigbedTo": "Raymond",
+		"NoOfItems": 1,
+		"Items": [
+			{
+					"RequestDescription": "New Request",
+					"Requestor": "Andy Fitzgibbons",
+			"DateSubmitted": "05/23/2020",
+			"Status": "Not Started",
+			"AssignedTo": "David Smith",
+			"Priority":"Medium",
+			"RequestType":"New Reporting Unit",
+			"RequestId": "1789102",
+			"ItemId": "101",
+			"RequestorItem": "101",
+			"NewUnitName": "Reporting Unit",
+				"BusinessReasonSelected":"Current Account",
+			"ReferenceUnitSelected":"ASD 001",
+			"BusinessGroupCodeSelected":"BSGC",
+			"CountryOfNewUnitSelected":"Germany",
+			"FCUnittoholdInvestmentinNewUnitSelected":"GER",
+			"FCofNewUnitSelected":"USD",
+			"NCONatcostSelected":"NCON at Cost",
+			"CurrencyPrimaryCashFlowSelected":"CAD",
+			"CashFlowsForRemittanceSelected":"Yes",
+			"SalesPricesByLocalCondSelected":"Yes",
+			"SalesPriceExcRatesSelected":"Yes",
+			"SalesMarActiveLocalSalesProdSerSelected":"Yes",
+			"SalesMarSalesDenominatedSelected":"USD",
+			"ExpRawMatLocCondSelected":"Yes",
+			"ExpRawMatUSSelected":"Yes",
+			"CurrFinanceObtainedSelected":"USD",
+			"PrimCashFlowSelected":"Yes",
+			"CashFlowRemSelected":"Yes",
+			
+			"AlloPurpSelected":"Yes",
+			"AlloTypeSelected":"Distribution",
+			"UnitAgreeAllocSelected":"Universal Allocation",
+			"BookUnitFunCostIdSelected":"1018",
+			"BookLevFRPLAccountSelected":"FR Account",
+			"YTDDollarAllocSelected":"$100k-$250k",
+			"BusinessGroupToUnitSelected":"Blue Jays",
+			"CountryToUnitSelected":"Germany",
+			"ToUnitSelected":"Mexico",
+			"ToUnitFuncCostIDSelected":"1212",
+			"BusinessReason": [{
+				"key": "Current Account",
+				"value": "Current Account"
+			}, {
+				"key": "Bill Payments",
+				"value": "Bill Payments"
+			}],
+			"ReferenceUnit": [{
+				"key": "ASD 001",
+				"value": "ASD 001"
+			}, {
+				"key": "BUB 900",
+				"value": "BUB 900"
+			}],
+			"EffectiveDate": "",
+
+			"BusinessGroupCode": [{
+				"key": "BSGC",
+				"value": "BSGC"
+			}, {
+				"key": "SADAS",
+				"value": "SADAS"
+			}],
+			"CountryOfNewUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "France",
+				"value": "France"
+
+			}, {
+				"key": "United Kingdom",
+				"value": "United Kingdom"
+			}],
+			"FCUnittoholdInvestmentinNewUnit": [{
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"FCofNewUnit": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"CargilPercent": "",
+
+			"NCONatcost": [{
+				"key": "NCON at Cost",
+				"value": "NCON at Cost"
+			}, {
+				"key": "NCON at Equity",
+				"value": "NCON at Equity"
+			}],
+			"BusinessJustification": "",
+			"CurrencyPrimaryCashFlow": [{
+				"key": "CAD",
+				"value": "CAD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowsForRemittance": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPricesByLocalCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPriceExcRates": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarActiveLocalSalesProdSer": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarProdSerSolLocally": "",
+			"SalesMarProdSerSolToOthCountries": "",
+			"SalesMarSalesDenominated": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"ExpRawMatLocCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"ExpRawMatUS": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"CurrFinanceObtained": [{
+					"key": "USD",
+					"value": "USD"
+				}, {
+					"key": "AUD",
+					"value": "AUD"
+				}, {
+					"key": "CAD",
+					"value": "CAD"
+				}
+
+			],
+			"DateIsPrimSer": [{
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}
+
+			],
+			"PrimCashFlow": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowRem": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AllLineDes": "",
+			"AlloPurp": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AlloType": [{
+				"key": "Distribution",
+				"value": "Distribution"
+			}, {
+				"key": "Assessment",
+				"value": "Assessment"
+			}],
+			"EffecDate": "",
+			"UnitAgreeAlloc": [{
+				"key": "Universal Allocation",
+				"value": "Universal Allocation"
+			}, {
+				"key": "Run Allocation",
+				"value": "Run Allocation"
+			}],
+			"BookUnitFunCostId": [{
+				"key": "1018",
+				"value": "1018"
+			}, {
+				"key": "1099",
+				"value": "1099"
+			}],
+			"BookLevFRPLAccount": [{
+				"key": "FR Account",
+				"value": "FR Account"
+			}, {
+				"key": "PL Account",
+				"value": "PL Account"
+			}],
+			"YTDDollarAlloc": [{
+				"key": "$100k-$250k",
+				"value": "$100k-$250k"
+			}, {
+				"key": "$250k-$450k",
+				"value": "$250k-$450k"
+			}],
+			"BusinessGroupToUnit": [{
+				"key": "Blue Jays",
+				"value": "Blue Jays"
+			}, {
+				"key": "Evil Masterminds",
+				"value": "Evil Masterminds"
+			}, {
+				"key": "Gritty Goblins",
+				"value": "Gritty Goblins"
+			}],
+			"CountryToUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "Canada",
+				"value": "Canada"
+			}, {
+				"key": "India",
+				"value": "India"
+			}],
+			"ToUnit": [{
+					"key": "Mexico",
+					"value": "Mexico"
+				}, {
+					"key": "Bahrain",
+					"value": "Bahrain"
+				}, {
+					"key": "Bolivia",
+					"value": "Bolivia"
+				}
+
+			],
+			"ToUnitFuncCostID": [{
+				"key": "1212",
+				"value": "1212"
+			}, {
+				"key": "9865",
+				"value": "9865"
+			}],
+			"AlloBusiJus": ""
+
+		}]
+	},
+	{   "RequestType":"With Approver",
+		"RequestId": "1789103",
+		"ItemId": "101",
+		"NewUnitName": "Reporting Unit",
+		"RequestDescription": "New Request",
+		"BusinessReason": "Business Reason",
+		"DateSubmitted": "12/15/2019",
+		"EffectiveDate": "05/01/2020",
+		"Priority": "Low",
+		"Status": "With Approver",
+		"RequestorItem": "101",
+		"Requestor": "Samuel Frank",
+		"AssigbedTo": "Justin Scott",
+		"NoOfItems": 1,
+		
+		"Items": [
+			{
+					"RequestDescription": "New Request",
+				"Requestor": "Andy Fitzgibbons",
+			"DateSubmitted": "05/23/2020",
+			"Status": "Not Started",
+			"AssignedTo": "David Smith",
+			"Priority":"Medium",
+			"RequestType":"New Reporting Unit",
+			"RequestId": "1789103",
+			"ItemId": "101",
+			"RequestorItem": "101",
+			"NewUnitName": "Reporting Unit",
+				"BusinessReasonSelected":"Current Account",
+			"ReferenceUnitSelected":"ASD 001",
+			"BusinessGroupCodeSelected":"BSGC",
+			"CountryOfNewUnitSelected":"Germany",
+			"FCUnittoholdInvestmentinNewUnitSelected":"GER",
+			"FCofNewUnitSelected":"USD",
+			"NCONatcostSelected":"NCON at Cost",
+			"CurrencyPrimaryCashFlowSelected":"CAD",
+			"CashFlowsForRemittanceSelected":"Yes",
+			"SalesPricesByLocalCondSelected":"Yes",
+			"SalesPriceExcRatesSelected":"Yes",
+			"SalesMarActiveLocalSalesProdSerSelected":"Yes",
+			"SalesMarSalesDenominatedSelected":"USD",
+			"ExpRawMatLocCondSelected":"Yes",
+			"ExpRawMatUSSelected":"Yes",
+			"CurrFinanceObtainedSelected":"USD",
+			"PrimCashFlowSelected":"Yes",
+			"CashFlowRemSelected":"Yes",
+			
+			"AlloPurpSelected":"Yes",
+			"AlloTypeSelected":"Distribution",
+			"UnitAgreeAllocSelected":"Universal Allocation",
+			"BookUnitFunCostIdSelected":"1018",
+			"BookLevFRPLAccountSelected":"FR Account",
+			"YTDDollarAllocSelected":"$100k-$250k",
+			"BusinessGroupToUnitSelected":"Blue Jays",
+			"CountryToUnitSelected":"Germany",
+			"ToUnitSelected":"Mexico",
+			"ToUnitFuncCostIDSelected":"1212",
+			"BusinessReason": [{
+				"key": "Current Account",
+				"value": "Current Account"
+			}, {
+				"key": "Bill Payments",
+				"value": "Bill Payments"
+			}],
+			"ReferenceUnit": [{
+				"key": "ASD 001",
+				"value": "ASD 001"
+			}, {
+				"key": "BUB 900",
+				"value": "BUB 900"
+			}],
+			"EffectiveDate": "",
+
+			"BusinessGroupCode": [{
+				"key": "BSGC",
+				"value": "BSGC"
+			}, {
+				"key": "SADAS",
+				"value": "SADAS"
+			}],
+			"CountryOfNewUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "France",
+				"value": "France"
+
+			}, {
+				"key": "United Kingdom",
+				"value": "United Kingdom"
+			}],
+			"FCUnittoholdInvestmentinNewUnit": [{
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"FCofNewUnit": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"CargilPercent": "",
+
+			"NCONatcost": [{
+				"key": "NCON at Cost",
+				"value": "NCON at Cost"
+			}, {
+				"key": "NCON at Equity",
+				"value": "NCON at Equity"
+			}],
+			"BusinessJustification": "",
+			"CurrencyPrimaryCashFlow": [{
+				"key": "CAD",
+				"value": "CAD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowsForRemittance": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPricesByLocalCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPriceExcRates": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarActiveLocalSalesProdSer": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarProdSerSolLocally": "",
+			"SalesMarProdSerSolToOthCountries": "",
+			"SalesMarSalesDenominated": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"ExpRawMatLocCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"ExpRawMatUS": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"CurrFinanceObtained": [{
+					"key": "USD",
+					"value": "USD"
+				}, {
+					"key": "AUD",
+					"value": "AUD"
+				}, {
+					"key": "CAD",
+					"value": "CAD"
+				}
+
+			],
+			"DateIsPrimSer": [{
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}
+
+			],
+			"PrimCashFlow": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowRem": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AllLineDes": "",
+			"AlloPurp": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AlloType": [{
+				"key": "Distribution",
+				"value": "Distribution"
+			}, {
+				"key": "Assessment",
+				"value": "Assessment"
+			}],
+			"EffecDate": "",
+			"UnitAgreeAlloc": [{
+				"key": "Universal Allocation",
+				"value": "Universal Allocation"
+			}, {
+				"key": "Run Allocation",
+				"value": "Run Allocation"
+			}],
+			"BookUnitFunCostId": [{
+				"key": "1018",
+				"value": "1018"
+			}, {
+				"key": "1099",
+				"value": "1099"
+			}],
+			"BookLevFRPLAccount": [{
+				"key": "FR Account",
+				"value": "FR Account"
+			}, {
+				"key": "PL Account",
+				"value": "PL Account"
+			}],
+			"YTDDollarAlloc": [{
+				"key": "$100k-$250k",
+				"value": "$100k-$250k"
+			}, {
+				"key": "$250k-$450k",
+				"value": "$250k-$450k"
+			}],
+			"BusinessGroupToUnit": [{
+				"key": "Blue Jays",
+				"value": "Blue Jays"
+			}, {
+				"key": "Evil Masterminds",
+				"value": "Evil Masterminds"
+			}, {
+				"key": "Gritty Goblins",
+				"value": "Gritty Goblins"
+			}],
+			"CountryToUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "Canada",
+				"value": "Canada"
+			}, {
+				"key": "India",
+				"value": "India"
+			}],
+			"ToUnit": [{
+					"key": "Mexico",
+					"value": "Mexico"
+				}, {
+					"key": "Bahrain",
+					"value": "Bahrain"
+				}, {
+					"key": "Bolivia",
+					"value": "Bolivia"
+				}
+
+			],
+			"ToUnitFuncCostID": [{
+				"key": "1212",
+				"value": "1212"
+			}, {
+				"key": "9865",
+				"value": "9865"
+			}],
+			"AlloBusiJus": ""
+
+		}]
+	},
+	{   
+		"RequestType":"With MasterData",
+		"RequestId": "1789104",
+		"ItemId": "101",
+		"NewUnitName": "New Unit Name",
+		"RequestDescription": "Deactivate Unit #22897651",
+		"BusinessReason": "Business Reason",
+		"DateSubmitted": "05/27/2020",
+		"EffectiveDate": "07/01/2020",
+		"Priority": "Medium",
+		"Status": "With MasterData",
+		"RequestorItem": "101",
+		"Requestor": "Frank Ruth",
+		"AssigbedTo": "Eric Ryan",
+		"NoOfItems": 1,
+		"Items": [
+			{
+				"Requestor": "Andy Fitzgibbons",
+			"DateSubmitted": "05/23/2020",
+			"Status": "Not Started",
+			"AssignedTo": "David Smith",
+			"Priority":"Medium",
+			
+			"RequestType":"New Reporting Unit",
+			"RequestId": "1789104",
+			"ItemId": "101",
+			"RequestorItem": "101",
+			"NewUnitName": "Reporting Unit",
+				"BusinessReasonSelected":"Current Account",
+			"ReferenceUnitSelected":"ASD 001",
+			"BusinessGroupCodeSelected":"BSGC",
+			"CountryOfNewUnitSelected":"Germany",
+			"FCUnittoholdInvestmentinNewUnitSelected":"GER",
+			"FCofNewUnitSelected":"USD",
+			"NCONatcostSelected":"NCON at Cost",
+			"CurrencyPrimaryCashFlowSelected":"CAD",
+			"CashFlowsForRemittanceSelected":"Yes",
+			"SalesPricesByLocalCondSelected":"Yes",
+			"SalesPriceExcRatesSelected":"Yes",
+			"SalesMarActiveLocalSalesProdSerSelected":"Yes",
+			"SalesMarSalesDenominatedSelected":"USD",
+			"ExpRawMatLocCondSelected":"Yes",
+			"ExpRawMatUSSelected":"Yes",
+			"CurrFinanceObtainedSelected":"USD",
+			"PrimCashFlowSelected":"Yes",
+			"CashFlowRemSelected":"Yes",
+			
+			"AlloPurpSelected":"Yes",
+			"AlloTypeSelected":"Distribution",
+			"UnitAgreeAllocSelected":"Universal Allocation",
+			"BookUnitFunCostIdSelected":"1018",
+			"BookLevFRPLAccountSelected":"FR Account",
+			"YTDDollarAllocSelected":"$100k-$250k",
+			"BusinessGroupToUnitSelected":"Blue Jays",
+			"CountryToUnitSelected":"Germany",
+			"ToUnitSelected":"Mexico",
+			"ToUnitFuncCostIDSelected":"1212",
+			"BusinessReason": [{
+				"key": "Current Account",
+				"value": "Current Account"
+			}, {
+				"key": "Bill Payments",
+				"value": "Bill Payments"
+			}],
+			"ReferenceUnit": [{
+				"key": "ASD 001",
+				"value": "ASD 001"
+			}, {
+				"key": "BUB 900",
+				"value": "BUB 900"
+			}],
+			"EffectiveDate": "",
+
+			"BusinessGroupCode": [{
+				"key": "BSGC",
+				"value": "BSGC"
+			}, {
+				"key": "SADAS",
+				"value": "SADAS"
+			}],
+			"CountryOfNewUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "France",
+				"value": "France"
+
+			}, {
+				"key": "United Kingdom",
+				"value": "United Kingdom"
+			}],
+			"FCUnittoholdInvestmentinNewUnit": [{
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"FCofNewUnit": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"CargilPercent": "",
+
+			"NCONatcost": [{
+				"key": "NCON at Cost",
+				"value": "NCON at Cost"
+			}, {
+				"key": "NCON at Equity",
+				"value": "NCON at Equity"
+			}],
+			"BusinessJustification": "",
+			"CurrencyPrimaryCashFlow": [{
+				"key": "CAD",
+				"value": "CAD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowsForRemittance": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPricesByLocalCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPriceExcRates": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarActiveLocalSalesProdSer": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarProdSerSolLocally": "",
+			"SalesMarProdSerSolToOthCountries": "",
+			"SalesMarSalesDenominated": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"ExpRawMatLocCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"ExpRawMatUS": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"CurrFinanceObtained": [{
+					"key": "USD",
+					"value": "USD"
+				}, {
+					"key": "AUD",
+					"value": "AUD"
+				}, {
+					"key": "CAD",
+					"value": "CAD"
+				}
+
+			],
+			"DateIsPrimSer": [{
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}
+
+			],
+			"PrimCashFlow": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowRem": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AllLineDes": "",
+			"AlloPurp": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AlloType": [{
+				"key": "Distribution",
+				"value": "Distribution"
+			}, {
+				"key": "Assessment",
+				"value": "Assessment"
+			}],
+			"EffecDate": "",
+			"UnitAgreeAlloc": [{
+				"key": "Universal Allocation",
+				"value": "Universal Allocation"
+			}, {
+				"key": "Run Allocation",
+				"value": "Run Allocation"
+			}],
+			"BookUnitFunCostId": [{
+				"key": "1018",
+				"value": "1018"
+			}, {
+				"key": "1099",
+				"value": "1099"
+			}],
+			"BookLevFRPLAccount": [{
+				"key": "FR Account",
+				"value": "FR Account"
+			}, {
+				"key": "PL Account",
+				"value": "PL Account"
+			}],
+			"YTDDollarAlloc": [{
+				"key": "$100k-$250k",
+				"value": "$100k-$250k"
+			}, {
+				"key": "$250k-$450k",
+				"value": "$250k-$450k"
+			}],
+			"BusinessGroupToUnit": [{
+				"key": "Blue Jays",
+				"value": "Blue Jays"
+			}, {
+				"key": "Evil Masterminds",
+				"value": "Evil Masterminds"
+			}, {
+				"key": "Gritty Goblins",
+				"value": "Gritty Goblins"
+			}],
+			"CountryToUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "Canada",
+				"value": "Canada"
+			}, {
+				"key": "India",
+				"value": "India"
+			}],
+			"ToUnit": [{
+					"key": "Mexico",
+					"value": "Mexico"
+				}, {
+					"key": "Bahrain",
+					"value": "Bahrain"
+				}, {
+					"key": "Bolivia",
+					"value": "Bolivia"
+				}
+
+			],
+			"ToUnitFuncCostID": [{
+				"key": "1212",
+				"value": "1212"
+			}, {
+				"key": "9865",
+				"value": "9865"
+			}],
+			"AlloBusiJus": ""
+
+		}]
+
+	}, 
+	{
+		"RequestType":"With MasterData",
+		"RequestId": "1789105",
+		"ItemId": "101",
+		"NewUnitName": "Reporting Unit",
+		"RequestDescription": "New Request",
+		"BusinessReason": "Business Reason",
+		"DateSubmitted": "03/02/2020",
+		"EffectiveDate": "05/01/2020",
+		"Priority": "Medium",
+	"Status": "With MasterData",
+		"RequestorItem": "101",
+		"Requestor": "Katherine Clark",
+		"AssigbedTo": "Raymond",
+		"NoOfItems": 1,
+		"Items": [
+			{
+					"RequestDescription": "New Request",
+					"Requestor": "Andy Fitzgibbons",
+			"DateSubmitted": "05/23/2020",
+			"Status": "Not Started",
+			"AssignedTo": "David Smith",
+			"Priority":"Medium",
+			"RequestType":"New Reporting Unit",
+			"RequestId": "1789105",
+			"ItemId": "101",
+			"RequestorItem": "101",
+			"NewUnitName": "Reporting Unit",
+				"BusinessReasonSelected":"Current Account",
+			"ReferenceUnitSelected":"ASD 001",
+			"BusinessGroupCodeSelected":"BSGC",
+			"CountryOfNewUnitSelected":"Germany",
+			"FCUnittoholdInvestmentinNewUnitSelected":"GER",
+			"FCofNewUnitSelected":"USD",
+			"NCONatcostSelected":"NCON at Cost",
+			"CurrencyPrimaryCashFlowSelected":"CAD",
+			"CashFlowsForRemittanceSelected":"Yes",
+			"SalesPricesByLocalCondSelected":"Yes",
+			"SalesPriceExcRatesSelected":"Yes",
+			"SalesMarActiveLocalSalesProdSerSelected":"Yes",
+			"SalesMarSalesDenominatedSelected":"USD",
+			"ExpRawMatLocCondSelected":"Yes",
+			"ExpRawMatUSSelected":"Yes",
+			"CurrFinanceObtainedSelected":"USD",
+			"PrimCashFlowSelected":"Yes",
+			"CashFlowRemSelected":"Yes",
+			
+			"AlloPurpSelected":"Yes",
+			"AlloTypeSelected":"Distribution",
+			"UnitAgreeAllocSelected":"Universal Allocation",
+			"BookUnitFunCostIdSelected":"1018",
+			"BookLevFRPLAccountSelected":"FR Account",
+			"YTDDollarAllocSelected":"$100k-$250k",
+			"BusinessGroupToUnitSelected":"Blue Jays",
+			"CountryToUnitSelected":"Germany",
+			"ToUnitSelected":"Mexico",
+			"ToUnitFuncCostIDSelected":"1212",
+			"BusinessReason": [{
+				"key": "Current Account",
+				"value": "Current Account"
+			}, {
+				"key": "Bill Payments",
+				"value": "Bill Payments"
+			}],
+			"ReferenceUnit": [{
+				"key": "ASD 001",
+				"value": "ASD 001"
+			}, {
+				"key": "BUB 900",
+				"value": "BUB 900"
+			}],
+			"EffectiveDate": "",
+
+			"BusinessGroupCode": [{
+				"key": "BSGC",
+				"value": "BSGC"
+			}, {
+				"key": "SADAS",
+				"value": "SADAS"
+			}],
+			"CountryOfNewUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "France",
+				"value": "France"
+
+			}, {
+				"key": "United Kingdom",
+				"value": "United Kingdom"
+			}],
+			"FCUnittoholdInvestmentinNewUnit": [{
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"FCofNewUnit": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"CargilPercent": "",
+
+			"NCONatcost": [{
+				"key": "NCON at Cost",
+				"value": "NCON at Cost"
+			}, {
+				"key": "NCON at Equity",
+				"value": "NCON at Equity"
+			}],
+			"BusinessJustification": "",
+			"CurrencyPrimaryCashFlow": [{
+				"key": "CAD",
+				"value": "CAD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowsForRemittance": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPricesByLocalCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPriceExcRates": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarActiveLocalSalesProdSer": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarProdSerSolLocally": "",
+			"SalesMarProdSerSolToOthCountries": "",
+			"SalesMarSalesDenominated": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"ExpRawMatLocCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"ExpRawMatUS": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"CurrFinanceObtained": [{
+					"key": "USD",
+					"value": "USD"
+				}, {
+					"key": "AUD",
+					"value": "AUD"
+				}, {
+					"key": "CAD",
+					"value": "CAD"
+				}
+
+			],
+			"DateIsPrimSer": [{
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}
+
+			],
+			"PrimCashFlow": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowRem": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AllLineDes": "",
+			"AlloPurp": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AlloType": [{
+				"key": "Distribution",
+				"value": "Distribution"
+			}, {
+				"key": "Assessment",
+				"value": "Assessment"
+			}],
+			"EffecDate": "",
+			"UnitAgreeAlloc": [{
+				"key": "Universal Allocation",
+				"value": "Universal Allocation"
+			}, {
+				"key": "Run Allocation",
+				"value": "Run Allocation"
+			}],
+			"BookUnitFunCostId": [{
+				"key": "1018",
+				"value": "1018"
+			}, {
+				"key": "1099",
+				"value": "1099"
+			}],
+			"BookLevFRPLAccount": [{
+				"key": "FR Account",
+				"value": "FR Account"
+			}, {
+				"key": "PL Account",
+				"value": "PL Account"
+			}],
+			"YTDDollarAlloc": [{
+				"key": "$100k-$250k",
+				"value": "$100k-$250k"
+			}, {
+				"key": "$250k-$450k",
+				"value": "$250k-$450k"
+			}],
+			"BusinessGroupToUnit": [{
+				"key": "Blue Jays",
+				"value": "Blue Jays"
+			}, {
+				"key": "Evil Masterminds",
+				"value": "Evil Masterminds"
+			}, {
+				"key": "Gritty Goblins",
+				"value": "Gritty Goblins"
+			}],
+			"CountryToUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "Canada",
+				"value": "Canada"
+			}, {
+				"key": "India",
+				"value": "India"
+			}],
+			"ToUnit": [{
+					"key": "Mexico",
+					"value": "Mexico"
+				}, {
+					"key": "Bahrain",
+					"value": "Bahrain"
+				}, {
+					"key": "Bolivia",
+					"value": "Bolivia"
+				}
+
+			],
+			"ToUnitFuncCostID": [{
+				"key": "1212",
+				"value": "1212"
+			}, {
+				"key": "9865",
+				"value": "9865"
+			}],
+			"AlloBusiJus": ""
+
+		}]
+	},
+	{   "RequestType":"With MasterData",
+		"RequestId": "1789106",
+		"ItemId": "101",
+		"NewUnitName": "Reporting Unit",
+		"RequestDescription": "New Request",
+		"BusinessReason": "Business Reason",
+		"DateSubmitted": "12/15/2019",
+		"EffectiveDate": "05/01/2020",
+		"Priority": "Low",
+		"Status": "With MasterData",
+		"RequestorItem": "101",
+		"Requestor": "Samuel Frank",
+		"AssigbedTo": "Justin Scott",
+		"NoOfItems": 1,
+		
+		"Items": [
+			{
+					"RequestDescription": "New Request",
+				"Requestor": "Andy Fitzgibbons",
+			"DateSubmitted": "05/23/2020",
+			"Status": "Not Started",
+			"AssignedTo": "David Smith",
+			"Priority":"Medium",
+			"RequestType":"New Reporting Unit",
+			"RequestId": "1789106",
+			"ItemId": "101",
+			"RequestorItem": "101",
+			"NewUnitName": "Reporting Unit",
+				"BusinessReasonSelected":"Current Account",
+			"ReferenceUnitSelected":"ASD 001",
+			"BusinessGroupCodeSelected":"BSGC",
+			"CountryOfNewUnitSelected":"Germany",
+			"FCUnittoholdInvestmentinNewUnitSelected":"GER",
+			"FCofNewUnitSelected":"USD",
+			"NCONatcostSelected":"NCON at Cost",
+			"CurrencyPrimaryCashFlowSelected":"CAD",
+			"CashFlowsForRemittanceSelected":"Yes",
+			"SalesPricesByLocalCondSelected":"Yes",
+			"SalesPriceExcRatesSelected":"Yes",
+			"SalesMarActiveLocalSalesProdSerSelected":"Yes",
+			"SalesMarSalesDenominatedSelected":"USD",
+			"ExpRawMatLocCondSelected":"Yes",
+			"ExpRawMatUSSelected":"Yes",
+			"CurrFinanceObtainedSelected":"USD",
+			"PrimCashFlowSelected":"Yes",
+			"CashFlowRemSelected":"Yes",
+			
+			"AlloPurpSelected":"Yes",
+			"AlloTypeSelected":"Distribution",
+			"UnitAgreeAllocSelected":"Universal Allocation",
+			"BookUnitFunCostIdSelected":"1018",
+			"BookLevFRPLAccountSelected":"FR Account",
+			"YTDDollarAllocSelected":"$100k-$250k",
+			"BusinessGroupToUnitSelected":"Blue Jays",
+			"CountryToUnitSelected":"Germany",
+			"ToUnitSelected":"Mexico",
+			"ToUnitFuncCostIDSelected":"1212",
+			"BusinessReason": [{
+				"key": "Current Account",
+				"value": "Current Account"
+			}, {
+				"key": "Bill Payments",
+				"value": "Bill Payments"
+			}],
+			"ReferenceUnit": [{
+				"key": "ASD 001",
+				"value": "ASD 001"
+			}, {
+				"key": "BUB 900",
+				"value": "BUB 900"
+			}],
+			"EffectiveDate": "",
+
+			"BusinessGroupCode": [{
+				"key": "BSGC",
+				"value": "BSGC"
+			}, {
+				"key": "SADAS",
+				"value": "SADAS"
+			}],
+			"CountryOfNewUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "France",
+				"value": "France"
+
+			}, {
+				"key": "United Kingdom",
+				"value": "United Kingdom"
+			}],
+			"FCUnittoholdInvestmentinNewUnit": [{
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"FCofNewUnit": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"CargilPercent": "",
+
+			"NCONatcost": [{
+				"key": "NCON at Cost",
+				"value": "NCON at Cost"
+			}, {
+				"key": "NCON at Equity",
+				"value": "NCON at Equity"
+			}],
+			"BusinessJustification": "",
+			"CurrencyPrimaryCashFlow": [{
+				"key": "CAD",
+				"value": "CAD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowsForRemittance": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPricesByLocalCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPriceExcRates": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarActiveLocalSalesProdSer": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarProdSerSolLocally": "",
+			"SalesMarProdSerSolToOthCountries": "",
+			"SalesMarSalesDenominated": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"ExpRawMatLocCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"ExpRawMatUS": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"CurrFinanceObtained": [{
+					"key": "USD",
+					"value": "USD"
+				}, {
+					"key": "AUD",
+					"value": "AUD"
+				}, {
+					"key": "CAD",
+					"value": "CAD"
+				}
+
+			],
+			"DateIsPrimSer": [{
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}
+
+			],
+			"PrimCashFlow": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowRem": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AllLineDes": "",
+			"AlloPurp": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AlloType": [{
+				"key": "Distribution",
+				"value": "Distribution"
+			}, {
+				"key": "Assessment",
+				"value": "Assessment"
+			}],
+			"EffecDate": "",
+			"UnitAgreeAlloc": [{
+				"key": "Universal Allocation",
+				"value": "Universal Allocation"
+			}, {
+				"key": "Run Allocation",
+				"value": "Run Allocation"
+			}],
+			"BookUnitFunCostId": [{
+				"key": "1018",
+				"value": "1018"
+			}, {
+				"key": "1099",
+				"value": "1099"
+			}],
+			"BookLevFRPLAccount": [{
+				"key": "FR Account",
+				"value": "FR Account"
+			}, {
+				"key": "PL Account",
+				"value": "PL Account"
+			}],
+			"YTDDollarAlloc": [{
+				"key": "$100k-$250k",
+				"value": "$100k-$250k"
+			}, {
+				"key": "$250k-$450k",
+				"value": "$250k-$450k"
+			}],
+			"BusinessGroupToUnit": [{
+				"key": "Blue Jays",
+				"value": "Blue Jays"
+			}, {
+				"key": "Evil Masterminds",
+				"value": "Evil Masterminds"
+			}, {
+				"key": "Gritty Goblins",
+				"value": "Gritty Goblins"
+			}],
+			"CountryToUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "Canada",
+				"value": "Canada"
+			}, {
+				"key": "India",
+				"value": "India"
+			}],
+			"ToUnit": [{
+					"key": "Mexico",
+					"value": "Mexico"
+				}, {
+					"key": "Bahrain",
+					"value": "Bahrain"
+				}, {
+					"key": "Bolivia",
+					"value": "Bolivia"
+				}
+
+			],
+			"ToUnitFuncCostID": [{
+				"key": "1212",
+				"value": "1212"
+			}, {
+				"key": "9865",
+				"value": "9865"
+			}],
+			"AlloBusiJus": ""
+
+		}]
+	},
+		{   "RequestType":"Completed",
+		"RequestId": "1789107",
+		"ItemId": "101",
+		"NewUnitName": "Reporting Unit",
+		"RequestDescription": "New Request",
+		"BusinessReason": "Business Reason",
+		"DateSubmitted": "12/15/2019",
+		"EffectiveDate": "05/01/2020",
+		"Priority": "Low",
+		"Status": "Completed",
+		"RequestorItem": "101",
+		"Requestor": "Samuel Frank",
+		"AssigbedTo": "Justin Scott",
+		"NoOfItems": 1,
+		
+		"Items": [
+			{
+					"RequestDescription": "New Request",
+				"Requestor": "Andy Fitzgibbons",
+			"DateSubmitted": "05/23/2020",
+			"Status": "Not Started",
+			"AssignedTo": "David Smith",
+			"Priority":"Medium",
+			"RequestType":"New Reporting Unit",
+			"RequestId": "1789107",
+			"ItemId": "101",
+			"RequestorItem": "101",
+			"NewUnitName": "Reporting Unit",
+				"BusinessReasonSelected":"Current Account",
+			"ReferenceUnitSelected":"ASD 001",
+			"BusinessGroupCodeSelected":"BSGC",
+			"CountryOfNewUnitSelected":"Germany",
+			"FCUnittoholdInvestmentinNewUnitSelected":"GER",
+			"FCofNewUnitSelected":"USD",
+			"NCONatcostSelected":"NCON at Cost",
+			"CurrencyPrimaryCashFlowSelected":"CAD",
+			"CashFlowsForRemittanceSelected":"Yes",
+			"SalesPricesByLocalCondSelected":"Yes",
+			"SalesPriceExcRatesSelected":"Yes",
+			"SalesMarActiveLocalSalesProdSerSelected":"Yes",
+			"SalesMarSalesDenominatedSelected":"USD",
+			"ExpRawMatLocCondSelected":"Yes",
+			"ExpRawMatUSSelected":"Yes",
+			"CurrFinanceObtainedSelected":"USD",
+			"PrimCashFlowSelected":"Yes",
+			"CashFlowRemSelected":"Yes",
+			
+			"AlloPurpSelected":"Yes",
+			"AlloTypeSelected":"Distribution",
+			"UnitAgreeAllocSelected":"Universal Allocation",
+			"BookUnitFunCostIdSelected":"1018",
+			"BookLevFRPLAccountSelected":"FR Account",
+			"YTDDollarAllocSelected":"$100k-$250k",
+			"BusinessGroupToUnitSelected":"Blue Jays",
+			"CountryToUnitSelected":"Germany",
+			"ToUnitSelected":"Mexico",
+			"ToUnitFuncCostIDSelected":"1212",
+			"BusinessReason": [{
+				"key": "Current Account",
+				"value": "Current Account"
+			}, {
+				"key": "Bill Payments",
+				"value": "Bill Payments"
+			}],
+			"ReferenceUnit": [{
+				"key": "ASD 001",
+				"value": "ASD 001"
+			}, {
+				"key": "BUB 900",
+				"value": "BUB 900"
+			}],
+			"EffectiveDate": "",
+
+			"BusinessGroupCode": [{
+				"key": "BSGC",
+				"value": "BSGC"
+			}, {
+				"key": "SADAS",
+				"value": "SADAS"
+			}],
+			"CountryOfNewUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "France",
+				"value": "France"
+
+			}, {
+				"key": "United Kingdom",
+				"value": "United Kingdom"
+			}],
+			"FCUnittoholdInvestmentinNewUnit": [{
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"FCofNewUnit": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"CargilPercent": "",
+
+			"NCONatcost": [{
+				"key": "NCON at Cost",
+				"value": "NCON at Cost"
+			}, {
+				"key": "NCON at Equity",
+				"value": "NCON at Equity"
+			}],
+			"BusinessJustification": "",
+			"CurrencyPrimaryCashFlow": [{
+				"key": "CAD",
+				"value": "CAD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowsForRemittance": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPricesByLocalCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPriceExcRates": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarActiveLocalSalesProdSer": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarProdSerSolLocally": "",
+			"SalesMarProdSerSolToOthCountries": "",
+			"SalesMarSalesDenominated": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"ExpRawMatLocCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"ExpRawMatUS": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"CurrFinanceObtained": [{
+					"key": "USD",
+					"value": "USD"
+				}, {
+					"key": "AUD",
+					"value": "AUD"
+				}, {
+					"key": "CAD",
+					"value": "CAD"
+				}
+
+			],
+			"DateIsPrimSer": [{
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}
+
+			],
+			"PrimCashFlow": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowRem": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AllLineDes": "",
+			"AlloPurp": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AlloType": [{
+				"key": "Distribution",
+				"value": "Distribution"
+			}, {
+				"key": "Assessment",
+				"value": "Assessment"
+			}],
+			"EffecDate": "",
+			"UnitAgreeAlloc": [{
+				"key": "Universal Allocation",
+				"value": "Universal Allocation"
+			}, {
+				"key": "Run Allocation",
+				"value": "Run Allocation"
+			}],
+			"BookUnitFunCostId": [{
+				"key": "1018",
+				"value": "1018"
+			}, {
+				"key": "1099",
+				"value": "1099"
+			}],
+			"BookLevFRPLAccount": [{
+				"key": "FR Account",
+				"value": "FR Account"
+			}, {
+				"key": "PL Account",
+				"value": "PL Account"
+			}],
+			"YTDDollarAlloc": [{
+				"key": "$100k-$250k",
+				"value": "$100k-$250k"
+			}, {
+				"key": "$250k-$450k",
+				"value": "$250k-$450k"
+			}],
+			"BusinessGroupToUnit": [{
+				"key": "Blue Jays",
+				"value": "Blue Jays"
+			}, {
+				"key": "Evil Masterminds",
+				"value": "Evil Masterminds"
+			}, {
+				"key": "Gritty Goblins",
+				"value": "Gritty Goblins"
+			}],
+			"CountryToUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "Canada",
+				"value": "Canada"
+			}, {
+				"key": "India",
+				"value": "India"
+			}],
+			"ToUnit": [{
+					"key": "Mexico",
+					"value": "Mexico"
+				}, {
+					"key": "Bahrain",
+					"value": "Bahrain"
+				}, {
+					"key": "Bolivia",
+					"value": "Bolivia"
+				}
+
+			],
+			"ToUnitFuncCostID": [{
+				"key": "1212",
+				"value": "1212"
+			}, {
+				"key": "9865",
+				"value": "9865"
+			}],
+			"AlloBusiJus": ""
+
+		}]
+	},
+	{   
+		"RequestType":"Completed",
+		"RequestId": "1789108",
+		"ItemId": "101",
+		"NewUnitName": "New Unit Name",
+		"RequestDescription": "Deactivate Unit #22897651",
+		"BusinessReason": "Business Reason",
+		"DateSubmitted": "05/27/2020",
+		"EffectiveDate": "07/01/2020",
+		"Priority": "Medium",
+		"Status": "Completed",
+		"RequestorItem": "101",
+		"Requestor": "Frank Ruth",
+		"AssigbedTo": "Eric Ryan",
+		"NoOfItems": 1,
+		"Items": [{
+				"Requestor": "Andy Fitzgibbons",
+			"DateSubmitted": "05/23/2020",
+			"Status": "Not Started",
+			"AssignedTo": "David Smith",
+			"Priority":"Medium",
+			
+			"RequestType":"New Reporting Unit",
+			"RequestId": "1789108",
+			"ItemId": "101",
+			"RequestorItem": "101",
+			"NewUnitName": "Reporting Unit",
+				"BusinessReasonSelected":"Current Account",
+			"ReferenceUnitSelected":"ASD 001",
+			"BusinessGroupCodeSelected":"BSGC",
+			"CountryOfNewUnitSelected":"Germany",
+			"FCUnittoholdInvestmentinNewUnitSelected":"GER",
+			"FCofNewUnitSelected":"USD",
+			"NCONatcostSelected":"NCON at Cost",
+			"CurrencyPrimaryCashFlowSelected":"CAD",
+			"CashFlowsForRemittanceSelected":"Yes",
+			"SalesPricesByLocalCondSelected":"Yes",
+			"SalesPriceExcRatesSelected":"Yes",
+			"SalesMarActiveLocalSalesProdSerSelected":"Yes",
+			"SalesMarSalesDenominatedSelected":"USD",
+			"ExpRawMatLocCondSelected":"Yes",
+			"ExpRawMatUSSelected":"Yes",
+			"CurrFinanceObtainedSelected":"USD",
+			"PrimCashFlowSelected":"Yes",
+			"CashFlowRemSelected":"Yes",
+			
+			"AlloPurpSelected":"Yes",
+			"AlloTypeSelected":"Distribution",
+			"UnitAgreeAllocSelected":"Universal Allocation",
+			"BookUnitFunCostIdSelected":"1018",
+			"BookLevFRPLAccountSelected":"FR Account",
+			"YTDDollarAllocSelected":"$100k-$250k",
+			"BusinessGroupToUnitSelected":"Blue Jays",
+			"CountryToUnitSelected":"Germany",
+			"ToUnitSelected":"Mexico",
+			"ToUnitFuncCostIDSelected":"1212",
+			"BusinessReason": [{
+				"key": "Current Account",
+				"value": "Current Account"
+			}, {
+				"key": "Bill Payments",
+				"value": "Bill Payments"
+			}],
+			"ReferenceUnit": [{
+				"key": "ASD 001",
+				"value": "ASD 001"
+			}, {
+				"key": "BUB 900",
+				"value": "BUB 900"
+			}],
+			"EffectiveDate": "",
+
+			"BusinessGroupCode": [{
+				"key": "BSGC",
+				"value": "BSGC"
+			}, {
+				"key": "SADAS",
+				"value": "SADAS"
+			}],
+			"CountryOfNewUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "France",
+				"value": "France"
+
+			}, {
+				"key": "United Kingdom",
+				"value": "United Kingdom"
+			}],
+			"FCUnittoholdInvestmentinNewUnit": [{
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"FCofNewUnit": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"CargilPercent": "",
+
+			"NCONatcost": [{
+				"key": "NCON at Cost",
+				"value": "NCON at Cost"
+			}, {
+				"key": "NCON at Equity",
+				"value": "NCON at Equity"
+			}],
+			"BusinessJustification": "",
+			"CurrencyPrimaryCashFlow": [{
+				"key": "CAD",
+				"value": "CAD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowsForRemittance": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPricesByLocalCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPriceExcRates": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarActiveLocalSalesProdSer": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarProdSerSolLocally": "",
+			"SalesMarProdSerSolToOthCountries": "",
+			"SalesMarSalesDenominated": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"ExpRawMatLocCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"ExpRawMatUS": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"CurrFinanceObtained": [{
+					"key": "USD",
+					"value": "USD"
+				}, {
+					"key": "AUD",
+					"value": "AUD"
+				}, {
+					"key": "CAD",
+					"value": "CAD"
+				}
+
+			],
+			"DateIsPrimSer": [{
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}
+
+			],
+			"PrimCashFlow": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowRem": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AllLineDes": "",
+			"AlloPurp": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AlloType": [{
+				"key": "Distribution",
+				"value": "Distribution"
+			}, {
+				"key": "Assessment",
+				"value": "Assessment"
+			}],
+			"EffecDate": "",
+			"UnitAgreeAlloc": [{
+				"key": "Universal Allocation",
+				"value": "Universal Allocation"
+			}, {
+				"key": "Run Allocation",
+				"value": "Run Allocation"
+			}],
+			"BookUnitFunCostId": [{
+				"key": "1018",
+				"value": "1018"
+			}, {
+				"key": "1099",
+				"value": "1099"
+			}],
+			"BookLevFRPLAccount": [{
+				"key": "FR Account",
+				"value": "FR Account"
+			}, {
+				"key": "PL Account",
+				"value": "PL Account"
+			}],
+			"YTDDollarAlloc": [{
+				"key": "$100k-$250k",
+				"value": "$100k-$250k"
+			}, {
+				"key": "$250k-$450k",
+				"value": "$250k-$450k"
+			}],
+			"BusinessGroupToUnit": [{
+				"key": "Blue Jays",
+				"value": "Blue Jays"
+			}, {
+				"key": "Evil Masterminds",
+				"value": "Evil Masterminds"
+			}, {
+				"key": "Gritty Goblins",
+				"value": "Gritty Goblins"
+			}],
+			"CountryToUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "Canada",
+				"value": "Canada"
+			}, {
+				"key": "India",
+				"value": "India"
+			}],
+			"ToUnit": [{
+					"key": "Mexico",
+					"value": "Mexico"
+				}, {
+					"key": "Bahrain",
+					"value": "Bahrain"
+				}, {
+					"key": "Bolivia",
+					"value": "Bolivia"
+				}
+
+			],
+			"ToUnitFuncCostID": [{
+				"key": "1212",
+				"value": "1212"
+			}, {
+				"key": "9865",
+				"value": "9865"
+			}],
+			"AlloBusiJus": ""
+
+		}]
+
+	}, 
+	{
+		"RequestType":"Completed",
+		"RequestId": "1789109",
+		"ItemId": "101",
+		"NewUnitName": "Reporting Unit",
+		"RequestDescription": "New Request",
+		"BusinessReason": "Business Reason",
+		"DateSubmitted": "03/02/2020",
+		"EffectiveDate": "05/01/2020",
+		"Priority": "Medium",
+		"Status": "Completed",
+		"RequestorItem": "101",
+		"Requestor": "Katherine Clark",
+		"AssigbedTo": "Raymond",
+		"NoOfItems": 1,
+		"Items": [
+			{
+					"RequestDescription": "New Request",
+					"Requestor": "Andy Fitzgibbons",
+			"DateSubmitted": "05/23/2020",
+			"Status": "Not Started",
+			"AssignedTo": "David Smith",
+			"Priority":"Medium",
+			"RequestType":"New Reporting Unit",
+			"RequestId": "1789109",
+			"ItemId": "101",
+			"RequestorItem": "101",
+			"NewUnitName": "Reporting Unit",
+				"BusinessReasonSelected":"Current Account",
+			"ReferenceUnitSelected":"ASD 001",
+			"BusinessGroupCodeSelected":"BSGC",
+			"CountryOfNewUnitSelected":"Germany",
+			"FCUnittoholdInvestmentinNewUnitSelected":"GER",
+			"FCofNewUnitSelected":"USD",
+			"NCONatcostSelected":"NCON at Cost",
+			"CurrencyPrimaryCashFlowSelected":"CAD",
+			"CashFlowsForRemittanceSelected":"Yes",
+			"SalesPricesByLocalCondSelected":"Yes",
+			"SalesPriceExcRatesSelected":"Yes",
+			"SalesMarActiveLocalSalesProdSerSelected":"Yes",
+			"SalesMarSalesDenominatedSelected":"USD",
+			"ExpRawMatLocCondSelected":"Yes",
+			"ExpRawMatUSSelected":"Yes",
+			"CurrFinanceObtainedSelected":"USD",
+			"PrimCashFlowSelected":"Yes",
+			"CashFlowRemSelected":"Yes",
+			
+			"AlloPurpSelected":"Yes",
+			"AlloTypeSelected":"Distribution",
+			"UnitAgreeAllocSelected":"Universal Allocation",
+			"BookUnitFunCostIdSelected":"1018",
+			"BookLevFRPLAccountSelected":"FR Account",
+			"YTDDollarAllocSelected":"$100k-$250k",
+			"BusinessGroupToUnitSelected":"Blue Jays",
+			"CountryToUnitSelected":"Germany",
+			"ToUnitSelected":"Mexico",
+			"ToUnitFuncCostIDSelected":"1212",
+			"BusinessReason": [{
+				"key": "Current Account",
+				"value": "Current Account"
+			}, {
+				"key": "Bill Payments",
+				"value": "Bill Payments"
+			}],
+			"ReferenceUnit": [{
+				"key": "ASD 001",
+				"value": "ASD 001"
+			}, {
+				"key": "BUB 900",
+				"value": "BUB 900"
+			}],
+			"EffectiveDate": "",
+
+			"BusinessGroupCode": [{
+				"key": "BSGC",
+				"value": "BSGC"
+			}, {
+				"key": "SADAS",
+				"value": "SADAS"
+			}],
+			"CountryOfNewUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "France",
+				"value": "France"
+
+			}, {
+				"key": "United Kingdom",
+				"value": "United Kingdom"
+			}],
+			"FCUnittoholdInvestmentinNewUnit": [{
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"FCofNewUnit": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"CargilPercent": "",
+
+			"NCONatcost": [{
+				"key": "NCON at Cost",
+				"value": "NCON at Cost"
+			}, {
+				"key": "NCON at Equity",
+				"value": "NCON at Equity"
+			}],
+			"BusinessJustification": "",
+			"CurrencyPrimaryCashFlow": [{
+				"key": "CAD",
+				"value": "CAD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowsForRemittance": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPricesByLocalCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPriceExcRates": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarActiveLocalSalesProdSer": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarProdSerSolLocally": "",
+			"SalesMarProdSerSolToOthCountries": "",
+			"SalesMarSalesDenominated": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"ExpRawMatLocCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"ExpRawMatUS": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"CurrFinanceObtained": [{
+					"key": "USD",
+					"value": "USD"
+				}, {
+					"key": "AUD",
+					"value": "AUD"
+				}, {
+					"key": "CAD",
+					"value": "CAD"
+				}
+
+			],
+			"DateIsPrimSer": [{
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}
+
+			],
+			"PrimCashFlow": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowRem": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AllLineDes": "",
+			"AlloPurp": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AlloType": [{
+				"key": "Distribution",
+				"value": "Distribution"
+			}, {
+				"key": "Assessment",
+				"value": "Assessment"
+			}],
+			"EffecDate": "",
+			"UnitAgreeAlloc": [{
+				"key": "Universal Allocation",
+				"value": "Universal Allocation"
+			}, {
+				"key": "Run Allocation",
+				"value": "Run Allocation"
+			}],
+			"BookUnitFunCostId": [{
+				"key": "1018",
+				"value": "1018"
+			}, {
+				"key": "1099",
+				"value": "1099"
+			}],
+			"BookLevFRPLAccount": [{
+				"key": "FR Account",
+				"value": "FR Account"
+			}, {
+				"key": "PL Account",
+				"value": "PL Account"
+			}],
+			"YTDDollarAlloc": [{
+				"key": "$100k-$250k",
+				"value": "$100k-$250k"
+			}, {
+				"key": "$250k-$450k",
+				"value": "$250k-$450k"
+			}],
+			"BusinessGroupToUnit": [{
+				"key": "Blue Jays",
+				"value": "Blue Jays"
+			}, {
+				"key": "Evil Masterminds",
+				"value": "Evil Masterminds"
+			}, {
+				"key": "Gritty Goblins",
+				"value": "Gritty Goblins"
+			}],
+			"CountryToUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "Canada",
+				"value": "Canada"
+			}, {
+				"key": "India",
+				"value": "India"
+			}],
+			"ToUnit": [{
+					"key": "Mexico",
+					"value": "Mexico"
+				}, {
+					"key": "Bahrain",
+					"value": "Bahrain"
+				}, {
+					"key": "Bolivia",
+					"value": "Bolivia"
+				}
+
+			],
+			"ToUnitFuncCostID": [{
+				"key": "1212",
+				"value": "1212"
+			}, {
+				"key": "9865",
+				"value": "9865"
+			}],
+			"AlloBusiJus": ""
+
+		}]
+	},
+	{   "RequestType":"Completed",
+		"RequestId": "1789110",
+		"ItemId": "101",
+		"NewUnitName": "Reporting Unit",
+		"RequestDescription": "New Request",
+		"BusinessReason": "Business Reason",
+		"DateSubmitted": "12/15/2019",
+		"EffectiveDate": "05/01/2020",
+		"Priority": "Low",
+			"Status": "Completed",
+		"RequestorItem": "101",
+		"Requestor": "Samuel Frank",
+		"AssigbedTo": "Justin Scott",
+		"NoOfItems": 1,
+		
+		"Items": [
+			{
+					"RequestDescription": "New Request",
+				"Requestor": "Andy Fitzgibbons",
+			"DateSubmitted": "05/23/2020",
+			"Status": "Not Started",
+			"AssignedTo": "David Smith",
+			"Priority":"Medium",
+			"RequestType":"New Reporting Unit",
+			"RequestId": "1789110",
+			"ItemId": "101",
+			"RequestorItem": "101",
+			"NewUnitName": "Reporting Unit",
+				"BusinessReasonSelected":"Current Account",
+			"ReferenceUnitSelected":"ASD 001",
+			"BusinessGroupCodeSelected":"BSGC",
+			"CountryOfNewUnitSelected":"Germany",
+			"FCUnittoholdInvestmentinNewUnitSelected":"GER",
+			"FCofNewUnitSelected":"USD",
+			"NCONatcostSelected":"NCON at Cost",
+			"CurrencyPrimaryCashFlowSelected":"CAD",
+			"CashFlowsForRemittanceSelected":"Yes",
+			"SalesPricesByLocalCondSelected":"Yes",
+			"SalesPriceExcRatesSelected":"Yes",
+			"SalesMarActiveLocalSalesProdSerSelected":"Yes",
+			"SalesMarSalesDenominatedSelected":"USD",
+			"ExpRawMatLocCondSelected":"Yes",
+			"ExpRawMatUSSelected":"Yes",
+			"CurrFinanceObtainedSelected":"USD",
+			"PrimCashFlowSelected":"Yes",
+			"CashFlowRemSelected":"Yes",
+			
+			"AlloPurpSelected":"Yes",
+			"AlloTypeSelected":"Distribution",
+			"UnitAgreeAllocSelected":"Universal Allocation",
+			"BookUnitFunCostIdSelected":"1018",
+			"BookLevFRPLAccountSelected":"FR Account",
+			"YTDDollarAllocSelected":"$100k-$250k",
+			"BusinessGroupToUnitSelected":"Blue Jays",
+			"CountryToUnitSelected":"Germany",
+			"ToUnitSelected":"Mexico",
+			"ToUnitFuncCostIDSelected":"1212",
+			"BusinessReason": [{
+				"key": "Current Account",
+				"value": "Current Account"
+			}, {
+				"key": "Bill Payments",
+				"value": "Bill Payments"
+			}],
+			"ReferenceUnit": [{
+				"key": "ASD 001",
+				"value": "ASD 001"
+			}, {
+				"key": "BUB 900",
+				"value": "BUB 900"
+			}],
+			"EffectiveDate": "",
+
+			"BusinessGroupCode": [{
+				"key": "BSGC",
+				"value": "BSGC"
+			}, {
+				"key": "SADAS",
+				"value": "SADAS"
+			}],
+			"CountryOfNewUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "France",
+				"value": "France"
+
+			}, {
+				"key": "United Kingdom",
+				"value": "United Kingdom"
+			}],
+			"FCUnittoholdInvestmentinNewUnit": [{
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"FCofNewUnit": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"CargilPercent": "",
+
+			"NCONatcost": [{
+				"key": "NCON at Cost",
+				"value": "NCON at Cost"
+			}, {
+				"key": "NCON at Equity",
+				"value": "NCON at Equity"
+			}],
+			"BusinessJustification": "",
+			"CurrencyPrimaryCashFlow": [{
+				"key": "CAD",
+				"value": "CAD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowsForRemittance": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPricesByLocalCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPriceExcRates": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarActiveLocalSalesProdSer": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarProdSerSolLocally": "",
+			"SalesMarProdSerSolToOthCountries": "",
+			"SalesMarSalesDenominated": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"ExpRawMatLocCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"ExpRawMatUS": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"CurrFinanceObtained": [{
+					"key": "USD",
+					"value": "USD"
+				}, {
+					"key": "AUD",
+					"value": "AUD"
+				}, {
+					"key": "CAD",
+					"value": "CAD"
+				}
+
+			],
+			"DateIsPrimSer": [{
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}
+
+			],
+			"PrimCashFlow": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowRem": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AllLineDes": "",
+			"AlloPurp": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AlloType": [{
+				"key": "Distribution",
+				"value": "Distribution"
+			}, {
+				"key": "Assessment",
+				"value": "Assessment"
+			}],
+			"EffecDate": "",
+			"UnitAgreeAlloc": [{
+				"key": "Universal Allocation",
+				"value": "Universal Allocation"
+			}, {
+				"key": "Run Allocation",
+				"value": "Run Allocation"
+			}],
+			"BookUnitFunCostId": [{
+				"key": "1018",
+				"value": "1018"
+			}, {
+				"key": "1099",
+				"value": "1099"
+			}],
+			"BookLevFRPLAccount": [{
+				"key": "FR Account",
+				"value": "FR Account"
+			}, {
+				"key": "PL Account",
+				"value": "PL Account"
+			}],
+			"YTDDollarAlloc": [{
+				"key": "$100k-$250k",
+				"value": "$100k-$250k"
+			}, {
+				"key": "$250k-$450k",
+				"value": "$250k-$450k"
+			}],
+			"BusinessGroupToUnit": [{
+				"key": "Blue Jays",
+				"value": "Blue Jays"
+			}, {
+				"key": "Evil Masterminds",
+				"value": "Evil Masterminds"
+			}, {
+				"key": "Gritty Goblins",
+				"value": "Gritty Goblins"
+			}],
+			"CountryToUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "Canada",
+				"value": "Canada"
+			}, {
+				"key": "India",
+				"value": "India"
+			}],
+			"ToUnit": [{
+					"key": "Mexico",
+					"value": "Mexico"
+				}, {
+					"key": "Bahrain",
+					"value": "Bahrain"
+				}, {
+					"key": "Bolivia",
+					"value": "Bolivia"
+				}
+
+			],
+			"ToUnitFuncCostID": [{
+				"key": "1212",
+				"value": "1212"
+			}, {
+				"key": "9865",
+				"value": "9865"
+			}],
+			"AlloBusiJus": ""
+
+		}]
+	},
+		{   "RequestType":"Rejected",
+		"RequestId": "1789111",
+		"ItemId": "101",
+		"NewUnitName": "Reporting Unit",
+		"RequestDescription": "New Request",
+		"BusinessReason": "Business Reason",
+		"DateSubmitted": "12/15/2019",
+		"EffectiveDate": "05/01/2020",
+		"Priority": "Low",
+		"Status": "Rejected",
+		"RequestorItem": "101",
+		"Requestor": "Samuel Frank",
+		"AssigbedTo": "Justin Scott",
+		"NoOfItems": 1,
+		
+		"Items": [
+			{
+					"RequestDescription": "New Request",
+				"Requestor": "Andy Fitzgibbons",
+			"DateSubmitted": "05/23/2020",
+			"Status": "Not Started",
+			"AssignedTo": "David Smith",
+			"Priority":"Medium",
+			"RequestType":"New Reporting Unit",
+			"RequestId": "1789111",
+			"ItemId": "101",
+			"RequestorItem": "101",
+			"NewUnitName": "Reporting Unit",
+				"BusinessReasonSelected":"Current Account",
+			"ReferenceUnitSelected":"ASD 001",
+			"BusinessGroupCodeSelected":"BSGC",
+			"CountryOfNewUnitSelected":"Germany",
+			"FCUnittoholdInvestmentinNewUnitSelected":"GER",
+			"FCofNewUnitSelected":"USD",
+			"NCONatcostSelected":"NCON at Cost",
+			"CurrencyPrimaryCashFlowSelected":"CAD",
+			"CashFlowsForRemittanceSelected":"Yes",
+			"SalesPricesByLocalCondSelected":"Yes",
+			"SalesPriceExcRatesSelected":"Yes",
+			"SalesMarActiveLocalSalesProdSerSelected":"Yes",
+			"SalesMarSalesDenominatedSelected":"USD",
+			"ExpRawMatLocCondSelected":"Yes",
+			"ExpRawMatUSSelected":"Yes",
+			"CurrFinanceObtainedSelected":"USD",
+			"PrimCashFlowSelected":"Yes",
+			"CashFlowRemSelected":"Yes",
+			
+			"AlloPurpSelected":"Yes",
+			"AlloTypeSelected":"Distribution",
+			"UnitAgreeAllocSelected":"Universal Allocation",
+			"BookUnitFunCostIdSelected":"1018",
+			"BookLevFRPLAccountSelected":"FR Account",
+			"YTDDollarAllocSelected":"$100k-$250k",
+			"BusinessGroupToUnitSelected":"Blue Jays",
+			"CountryToUnitSelected":"Germany",
+			"ToUnitSelected":"Mexico",
+			"ToUnitFuncCostIDSelected":"1212",
+			"BusinessReason": [{
+				"key": "Current Account",
+				"value": "Current Account"
+			}, {
+				"key": "Bill Payments",
+				"value": "Bill Payments"
+			}],
+			"ReferenceUnit": [{
+				"key": "ASD 001",
+				"value": "ASD 001"
+			}, {
+				"key": "BUB 900",
+				"value": "BUB 900"
+			}],
+			"EffectiveDate": "",
+
+			"BusinessGroupCode": [{
+				"key": "BSGC",
+				"value": "BSGC"
+			}, {
+				"key": "SADAS",
+				"value": "SADAS"
+			}],
+			"CountryOfNewUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "France",
+				"value": "France"
+
+			}, {
+				"key": "United Kingdom",
+				"value": "United Kingdom"
+			}],
+			"FCUnittoholdInvestmentinNewUnit": [{
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"FCofNewUnit": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"CargilPercent": "",
+
+			"NCONatcost": [{
+				"key": "NCON at Cost",
+				"value": "NCON at Cost"
+			}, {
+				"key": "NCON at Equity",
+				"value": "NCON at Equity"
+			}],
+			"BusinessJustification": "",
+			"CurrencyPrimaryCashFlow": [{
+				"key": "CAD",
+				"value": "CAD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowsForRemittance": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPricesByLocalCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPriceExcRates": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarActiveLocalSalesProdSer": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarProdSerSolLocally": "",
+			"SalesMarProdSerSolToOthCountries": "",
+			"SalesMarSalesDenominated": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"ExpRawMatLocCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"ExpRawMatUS": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"CurrFinanceObtained": [{
+					"key": "USD",
+					"value": "USD"
+				}, {
+					"key": "AUD",
+					"value": "AUD"
+				}, {
+					"key": "CAD",
+					"value": "CAD"
+				}
+
+			],
+			"DateIsPrimSer": [{
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}
+
+			],
+			"PrimCashFlow": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowRem": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AllLineDes": "",
+			"AlloPurp": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AlloType": [{
+				"key": "Distribution",
+				"value": "Distribution"
+			}, {
+				"key": "Assessment",
+				"value": "Assessment"
+			}],
+			"EffecDate": "",
+			"UnitAgreeAlloc": [{
+				"key": "Universal Allocation",
+				"value": "Universal Allocation"
+			}, {
+				"key": "Run Allocation",
+				"value": "Run Allocation"
+			}],
+			"BookUnitFunCostId": [{
+				"key": "1018",
+				"value": "1018"
+			}, {
+				"key": "1099",
+				"value": "1099"
+			}],
+			"BookLevFRPLAccount": [{
+				"key": "FR Account",
+				"value": "FR Account"
+			}, {
+				"key": "PL Account",
+				"value": "PL Account"
+			}],
+			"YTDDollarAlloc": [{
+				"key": "$100k-$250k",
+				"value": "$100k-$250k"
+			}, {
+				"key": "$250k-$450k",
+				"value": "$250k-$450k"
+			}],
+			"BusinessGroupToUnit": [{
+				"key": "Blue Jays",
+				"value": "Blue Jays"
+			}, {
+				"key": "Evil Masterminds",
+				"value": "Evil Masterminds"
+			}, {
+				"key": "Gritty Goblins",
+				"value": "Gritty Goblins"
+			}],
+			"CountryToUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "Canada",
+				"value": "Canada"
+			}, {
+				"key": "India",
+				"value": "India"
+			}],
+			"ToUnit": [{
+					"key": "Mexico",
+					"value": "Mexico"
+				}, {
+					"key": "Bahrain",
+					"value": "Bahrain"
+				}, {
+					"key": "Bolivia",
+					"value": "Bolivia"
+				}
+
+			],
+			"ToUnitFuncCostID": [{
+				"key": "1212",
+				"value": "1212"
+			}, {
+				"key": "9865",
+				"value": "9865"
+			}],
+			"AlloBusiJus": ""
+
+		}]
+	},
+		{   "RequestType":"Rejected",
+		"RequestId": "1789112",
+		"ItemId": "101",
+		"NewUnitName": "Reporting Unit",
+		"RequestDescription": "New Request",
+		"BusinessReason": "Business Reason",
+		"DateSubmitted": "12/15/2019",
+		"EffectiveDate": "05/01/2020",
+		"Priority": "Low",
+		"Status": "Rejected",
+		"RequestorItem": "101",
+		"Requestor": "Samuel Frank",
+		"AssigbedTo": "Justin Scott",
+		"NoOfItems": 1,
+		
+		"Items": [
+			{
+					"RequestDescription": "New Request",
+				"Requestor": "Andy Fitzgibbons",
+			"DateSubmitted": "05/23/2020",
+			"Status": "Not Started",
+			"AssignedTo": "David Smith",
+			"Priority":"Medium",
+			"RequestType":"New Reporting Unit",
+			"RequestId": "1789112",
+			"ItemId": "101",
+			"RequestorItem": "101",
+			"NewUnitName": "Reporting Unit",
+				"BusinessReasonSelected":"Current Account",
+			"ReferenceUnitSelected":"ASD 001",
+			"BusinessGroupCodeSelected":"BSGC",
+			"CountryOfNewUnitSelected":"Germany",
+			"FCUnittoholdInvestmentinNewUnitSelected":"GER",
+			"FCofNewUnitSelected":"USD",
+			"NCONatcostSelected":"NCON at Cost",
+			"CurrencyPrimaryCashFlowSelected":"CAD",
+			"CashFlowsForRemittanceSelected":"Yes",
+			"SalesPricesByLocalCondSelected":"Yes",
+			"SalesPriceExcRatesSelected":"Yes",
+			"SalesMarActiveLocalSalesProdSerSelected":"Yes",
+			"SalesMarSalesDenominatedSelected":"USD",
+			"ExpRawMatLocCondSelected":"Yes",
+			"ExpRawMatUSSelected":"Yes",
+			"CurrFinanceObtainedSelected":"USD",
+			"PrimCashFlowSelected":"Yes",
+			"CashFlowRemSelected":"Yes",
+			
+			"AlloPurpSelected":"Yes",
+			"AlloTypeSelected":"Distribution",
+			"UnitAgreeAllocSelected":"Universal Allocation",
+			"BookUnitFunCostIdSelected":"1018",
+			"BookLevFRPLAccountSelected":"FR Account",
+			"YTDDollarAllocSelected":"$100k-$250k",
+			"BusinessGroupToUnitSelected":"Blue Jays",
+			"CountryToUnitSelected":"Germany",
+			"ToUnitSelected":"Mexico",
+			"ToUnitFuncCostIDSelected":"1212",
+			"BusinessReason": [{
+				"key": "Current Account",
+				"value": "Current Account"
+			}, {
+				"key": "Bill Payments",
+				"value": "Bill Payments"
+			}],
+			"ReferenceUnit": [{
+				"key": "ASD 001",
+				"value": "ASD 001"
+			}, {
+				"key": "BUB 900",
+				"value": "BUB 900"
+			}],
+			"EffectiveDate": "",
+
+			"BusinessGroupCode": [{
+				"key": "BSGC",
+				"value": "BSGC"
+			}, {
+				"key": "SADAS",
+				"value": "SADAS"
+			}],
+			"CountryOfNewUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "France",
+				"value": "France"
+
+			}, {
+				"key": "United Kingdom",
+				"value": "United Kingdom"
+			}],
+			"FCUnittoholdInvestmentinNewUnit": [{
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"FCofNewUnit": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"CargilPercent": "",
+
+			"NCONatcost": [{
+				"key": "NCON at Cost",
+				"value": "NCON at Cost"
+			}, {
+				"key": "NCON at Equity",
+				"value": "NCON at Equity"
+			}],
+			"BusinessJustification": "",
+			"CurrencyPrimaryCashFlow": [{
+				"key": "CAD",
+				"value": "CAD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowsForRemittance": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPricesByLocalCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPriceExcRates": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarActiveLocalSalesProdSer": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarProdSerSolLocally": "",
+			"SalesMarProdSerSolToOthCountries": "",
+			"SalesMarSalesDenominated": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"ExpRawMatLocCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"ExpRawMatUS": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"CurrFinanceObtained": [{
+					"key": "USD",
+					"value": "USD"
+				}, {
+					"key": "AUD",
+					"value": "AUD"
+				}, {
+					"key": "CAD",
+					"value": "CAD"
+				}
+
+			],
+			"DateIsPrimSer": [{
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}
+
+			],
+			"PrimCashFlow": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowRem": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AllLineDes": "",
+			"AlloPurp": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AlloType": [{
+				"key": "Distribution",
+				"value": "Distribution"
+			}, {
+				"key": "Assessment",
+				"value": "Assessment"
+			}],
+			"EffecDate": "",
+			"UnitAgreeAlloc": [{
+				"key": "Universal Allocation",
+				"value": "Universal Allocation"
+			}, {
+				"key": "Run Allocation",
+				"value": "Run Allocation"
+			}],
+			"BookUnitFunCostId": [{
+				"key": "1018",
+				"value": "1018"
+			}, {
+				"key": "1099",
+				"value": "1099"
+			}],
+			"BookLevFRPLAccount": [{
+				"key": "FR Account",
+				"value": "FR Account"
+			}, {
+				"key": "PL Account",
+				"value": "PL Account"
+			}],
+			"YTDDollarAlloc": [{
+				"key": "$100k-$250k",
+				"value": "$100k-$250k"
+			}, {
+				"key": "$250k-$450k",
+				"value": "$250k-$450k"
+			}],
+			"BusinessGroupToUnit": [{
+				"key": "Blue Jays",
+				"value": "Blue Jays"
+			}, {
+				"key": "Evil Masterminds",
+				"value": "Evil Masterminds"
+			}, {
+				"key": "Gritty Goblins",
+				"value": "Gritty Goblins"
+			}],
+			"CountryToUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "Canada",
+				"value": "Canada"
+			}, {
+				"key": "India",
+				"value": "India"
+			}],
+			"ToUnit": [{
+					"key": "Mexico",
+					"value": "Mexico"
+				}, {
+					"key": "Bahrain",
+					"value": "Bahrain"
+				}, {
+					"key": "Bolivia",
+					"value": "Bolivia"
+				}
+
+			],
+			"ToUnitFuncCostID": [{
+				"key": "1212",
+				"value": "1212"
+			}, {
+				"key": "9865",
+				"value": "9865"
+			}],
+			"AlloBusiJus": ""
+
+		}]
+	},
+	{   
+		"RequestType":"Rejected",
+		"RequestId": "1789113",
+		"ItemId": "101",
+		"NewUnitName": "New Unit Name",
+		"RequestDescription": "Deactivate Unit #22897651",
+		"BusinessReason": "Business Reason",
+		"DateSubmitted": "05/27/2020",
+		"EffectiveDate": "07/01/2020",
+		"Priority": "Medium",
+		"Status": "Rejected",
+		"RequestorItem": "101",
+		"Requestor": "Frank Ruth",
+		"AssigbedTo": "Eric Ryan",
+		"NoOfItems": 1,
+		"Items": [
+			{
+				"Requestor": "Andy Fitzgibbons",
+			"DateSubmitted": "05/23/2020",
+			"Status": "Not Started",
+			"AssignedTo": "David Smith",
+			"Priority":"Medium",
+			
+			"RequestType":"New Reporting Unit",
+			"RequestId": "1789113",
+			"ItemId": "101",
+			"RequestorItem": "101",
+			"NewUnitName": "Reporting Unit",
+				"BusinessReasonSelected":"Current Account",
+			"ReferenceUnitSelected":"ASD 001",
+			"BusinessGroupCodeSelected":"BSGC",
+			"CountryOfNewUnitSelected":"Germany",
+			"FCUnittoholdInvestmentinNewUnitSelected":"GER",
+			"FCofNewUnitSelected":"USD",
+			"NCONatcostSelected":"NCON at Cost",
+			"CurrencyPrimaryCashFlowSelected":"CAD",
+			"CashFlowsForRemittanceSelected":"Yes",
+			"SalesPricesByLocalCondSelected":"Yes",
+			"SalesPriceExcRatesSelected":"Yes",
+			"SalesMarActiveLocalSalesProdSerSelected":"Yes",
+			"SalesMarSalesDenominatedSelected":"USD",
+			"ExpRawMatLocCondSelected":"Yes",
+			"ExpRawMatUSSelected":"Yes",
+			"CurrFinanceObtainedSelected":"USD",
+			"PrimCashFlowSelected":"Yes",
+			"CashFlowRemSelected":"Yes",
+			
+			"AlloPurpSelected":"Yes",
+			"AlloTypeSelected":"Distribution",
+			"UnitAgreeAllocSelected":"Universal Allocation",
+			"BookUnitFunCostIdSelected":"1018",
+			"BookLevFRPLAccountSelected":"FR Account",
+			"YTDDollarAllocSelected":"$100k-$250k",
+			"BusinessGroupToUnitSelected":"Blue Jays",
+			"CountryToUnitSelected":"Germany",
+			"ToUnitSelected":"Mexico",
+			"ToUnitFuncCostIDSelected":"1212",
+			"BusinessReason": [{
+				"key": "Current Account",
+				"value": "Current Account"
+			}, {
+				"key": "Bill Payments",
+				"value": "Bill Payments"
+			}],
+			"ReferenceUnit": [{
+				"key": "ASD 001",
+				"value": "ASD 001"
+			}, {
+				"key": "BUB 900",
+				"value": "BUB 900"
+			}],
+			"EffectiveDate": "",
+
+			"BusinessGroupCode": [{
+				"key": "BSGC",
+				"value": "BSGC"
+			}, {
+				"key": "SADAS",
+				"value": "SADAS"
+			}],
+			"CountryOfNewUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "France",
+				"value": "France"
+
+			}, {
+				"key": "United Kingdom",
+				"value": "United Kingdom"
+			}],
+			"FCUnittoholdInvestmentinNewUnit": [{
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"FCofNewUnit": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"CargilPercent": "",
+
+			"NCONatcost": [{
+				"key": "NCON at Cost",
+				"value": "NCON at Cost"
+			}, {
+				"key": "NCON at Equity",
+				"value": "NCON at Equity"
+			}],
+			"BusinessJustification": "",
+			"CurrencyPrimaryCashFlow": [{
+				"key": "CAD",
+				"value": "CAD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowsForRemittance": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPricesByLocalCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPriceExcRates": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarActiveLocalSalesProdSer": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarProdSerSolLocally": "",
+			"SalesMarProdSerSolToOthCountries": "",
+			"SalesMarSalesDenominated": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"ExpRawMatLocCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"ExpRawMatUS": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"CurrFinanceObtained": [{
+					"key": "USD",
+					"value": "USD"
+				}, {
+					"key": "AUD",
+					"value": "AUD"
+				}, {
+					"key": "CAD",
+					"value": "CAD"
+				}
+
+			],
+			"DateIsPrimSer": [{
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}
+
+			],
+			"PrimCashFlow": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowRem": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AllLineDes": "",
+			"AlloPurp": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AlloType": [{
+				"key": "Distribution",
+				"value": "Distribution"
+			}, {
+				"key": "Assessment",
+				"value": "Assessment"
+			}],
+			"EffecDate": "",
+			"UnitAgreeAlloc": [{
+				"key": "Universal Allocation",
+				"value": "Universal Allocation"
+			}, {
+				"key": "Run Allocation",
+				"value": "Run Allocation"
+			}],
+			"BookUnitFunCostId": [{
+				"key": "1018",
+				"value": "1018"
+			}, {
+				"key": "1099",
+				"value": "1099"
+			}],
+			"BookLevFRPLAccount": [{
+				"key": "FR Account",
+				"value": "FR Account"
+			}, {
+				"key": "PL Account",
+				"value": "PL Account"
+			}],
+			"YTDDollarAlloc": [{
+				"key": "$100k-$250k",
+				"value": "$100k-$250k"
+			}, {
+				"key": "$250k-$450k",
+				"value": "$250k-$450k"
+			}],
+			"BusinessGroupToUnit": [{
+				"key": "Blue Jays",
+				"value": "Blue Jays"
+			}, {
+				"key": "Evil Masterminds",
+				"value": "Evil Masterminds"
+			}, {
+				"key": "Gritty Goblins",
+				"value": "Gritty Goblins"
+			}],
+			"CountryToUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "Canada",
+				"value": "Canada"
+			}, {
+				"key": "India",
+				"value": "India"
+			}],
+			"ToUnit": [{
+					"key": "Mexico",
+					"value": "Mexico"
+				}, {
+					"key": "Bahrain",
+					"value": "Bahrain"
+				}, {
+					"key": "Bolivia",
+					"value": "Bolivia"
+				}
+
+			],
+			"ToUnitFuncCostID": [{
+				"key": "1212",
+				"value": "1212"
+			}, {
+				"key": "9865",
+				"value": "9865"
+			}],
+			"AlloBusiJus": ""
+
+		}]
+
+	}, 
+	{
+		"RequestType":"Rejected",
+		"RequestId": "1789114",
+		"ItemId": "101",
+		"NewUnitName": "Reporting Unit",
+		"RequestDescription": "New Request",
+		"BusinessReason": "Business Reason",
+		"DateSubmitted": "03/02/2020",
+		"EffectiveDate": "05/01/2020",
+		"Priority": "Medium",
+		"Status": "Rejected",
+		"RequestorItem": "101",
+		"Requestor": "Katherine Clark",
+		"AssigbedTo": "Raymond",
+		"NoOfItems": 1,
+		"Items": [
+			{
+					"RequestDescription": "New Request",
+					"Requestor": "Andy Fitzgibbons",
+			"DateSubmitted": "05/23/2020",
+			"Status": "Not Started",
+			"AssignedTo": "David Smith",
+			"Priority":"Medium",
+			"RequestType":"New Reporting Unit",
+			"RequestId": "1789114",
+			"ItemId": "101",
+			"RequestorItem": "101",
+			"NewUnitName": "Reporting Unit",
+				"BusinessReasonSelected":"Current Account",
+			"ReferenceUnitSelected":"ASD 001",
+			"BusinessGroupCodeSelected":"BSGC",
+			"CountryOfNewUnitSelected":"Germany",
+			"FCUnittoholdInvestmentinNewUnitSelected":"GER",
+			"FCofNewUnitSelected":"USD",
+			"NCONatcostSelected":"NCON at Cost",
+			"CurrencyPrimaryCashFlowSelected":"CAD",
+			"CashFlowsForRemittanceSelected":"Yes",
+			"SalesPricesByLocalCondSelected":"Yes",
+			"SalesPriceExcRatesSelected":"Yes",
+			"SalesMarActiveLocalSalesProdSerSelected":"Yes",
+			"SalesMarSalesDenominatedSelected":"USD",
+			"ExpRawMatLocCondSelected":"Yes",
+			"ExpRawMatUSSelected":"Yes",
+			"CurrFinanceObtainedSelected":"USD",
+			"PrimCashFlowSelected":"Yes",
+			"CashFlowRemSelected":"Yes",
+			
+			"AlloPurpSelected":"Yes",
+			"AlloTypeSelected":"Distribution",
+			"UnitAgreeAllocSelected":"Universal Allocation",
+			"BookUnitFunCostIdSelected":"1018",
+			"BookLevFRPLAccountSelected":"FR Account",
+			"YTDDollarAllocSelected":"$100k-$250k",
+			"BusinessGroupToUnitSelected":"Blue Jays",
+			"CountryToUnitSelected":"Germany",
+			"ToUnitSelected":"Mexico",
+			"ToUnitFuncCostIDSelected":"1212",
+			"BusinessReason": [{
+				"key": "Current Account",
+				"value": "Current Account"
+			}, {
+				"key": "Bill Payments",
+				"value": "Bill Payments"
+			}],
+			"ReferenceUnit": [{
+				"key": "ASD 001",
+				"value": "ASD 001"
+			}, {
+				"key": "BUB 900",
+				"value": "BUB 900"
+			}],
+			"EffectiveDate": "",
+
+			"BusinessGroupCode": [{
+				"key": "BSGC",
+				"value": "BSGC"
+			}, {
+				"key": "SADAS",
+				"value": "SADAS"
+			}],
+			"CountryOfNewUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "France",
+				"value": "France"
+
+			}, {
+				"key": "United Kingdom",
+				"value": "United Kingdom"
+			}],
+			"FCUnittoholdInvestmentinNewUnit": [{
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"FCofNewUnit": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"CargilPercent": "",
+
+			"NCONatcost": [{
+				"key": "NCON at Cost",
+				"value": "NCON at Cost"
+			}, {
+				"key": "NCON at Equity",
+				"value": "NCON at Equity"
+			}],
+			"BusinessJustification": "",
+			"CurrencyPrimaryCashFlow": [{
+				"key": "CAD",
+				"value": "CAD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowsForRemittance": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPricesByLocalCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPriceExcRates": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarActiveLocalSalesProdSer": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarProdSerSolLocally": "",
+			"SalesMarProdSerSolToOthCountries": "",
+			"SalesMarSalesDenominated": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"ExpRawMatLocCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"ExpRawMatUS": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"CurrFinanceObtained": [{
+					"key": "USD",
+					"value": "USD"
+				}, {
+					"key": "AUD",
+					"value": "AUD"
+				}, {
+					"key": "CAD",
+					"value": "CAD"
+				}
+
+			],
+			"DateIsPrimSer": [{
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}
+
+			],
+			"PrimCashFlow": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowRem": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AllLineDes": "",
+			"AlloPurp": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AlloType": [{
+				"key": "Distribution",
+				"value": "Distribution"
+			}, {
+				"key": "Assessment",
+				"value": "Assessment"
+			}],
+			"EffecDate": "",
+			"UnitAgreeAlloc": [{
+				"key": "Universal Allocation",
+				"value": "Universal Allocation"
+			}, {
+				"key": "Run Allocation",
+				"value": "Run Allocation"
+			}],
+			"BookUnitFunCostId": [{
+				"key": "1018",
+				"value": "1018"
+			}, {
+				"key": "1099",
+				"value": "1099"
+			}],
+			"BookLevFRPLAccount": [{
+				"key": "FR Account",
+				"value": "FR Account"
+			}, {
+				"key": "PL Account",
+				"value": "PL Account"
+			}],
+			"YTDDollarAlloc": [{
+				"key": "$100k-$250k",
+				"value": "$100k-$250k"
+			}, {
+				"key": "$250k-$450k",
+				"value": "$250k-$450k"
+			}],
+			"BusinessGroupToUnit": [{
+				"key": "Blue Jays",
+				"value": "Blue Jays"
+			}, {
+				"key": "Evil Masterminds",
+				"value": "Evil Masterminds"
+			}, {
+				"key": "Gritty Goblins",
+				"value": "Gritty Goblins"
+			}],
+			"CountryToUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "Canada",
+				"value": "Canada"
+			}, {
+				"key": "India",
+				"value": "India"
+			}],
+			"ToUnit": [{
+					"key": "Mexico",
+					"value": "Mexico"
+				}, {
+					"key": "Bahrain",
+					"value": "Bahrain"
+				}, {
+					"key": "Bolivia",
+					"value": "Bolivia"
+				}
+
+			],
+			"ToUnitFuncCostID": [{
+				"key": "1212",
+				"value": "1212"
+			}, {
+				"key": "9865",
+				"value": "9865"
+			}],
+			"AlloBusiJus": ""
+
+		}]
+	},
+	{   "RequestType":"Rejected",
+		"RequestId": "1789115",
+		"ItemId": "101",
+		"NewUnitName": "Reporting Unit",
+		"RequestDescription": "New Request",
+		"BusinessReason": "Business Reason",
+		"DateSubmitted": "12/15/2019",
+		"EffectiveDate": "05/01/2020",
+		"Priority": "Low",
+		"Status": "Rejected",
+		"RequestorItem": "101",
+		"Requestor": "Samuel Frank",
+		"AssigbedTo": "Justin Scott",
+		"NoOfItems": 1,
+		
+		"Items": [{
+					"RequestDescription": "New Request",
+				"Requestor": "Andy Fitzgibbons",
+			"DateSubmitted": "05/23/2020",
+			"Status": "Not Started",
+			"AssignedTo": "David Smith",
+			"Priority":"Medium",
+			"RequestType":"New Reporting Unit",
+			"RequestId": "1789115",
+			"ItemId": "101",
+			"RequestorItem": "101",
+			"NewUnitName": "Reporting Unit",
+				"BusinessReasonSelected":"Current Account",
+			"ReferenceUnitSelected":"ASD 001",
+			"BusinessGroupCodeSelected":"BSGC",
+			"CountryOfNewUnitSelected":"Germany",
+			"FCUnittoholdInvestmentinNewUnitSelected":"GER",
+			"FCofNewUnitSelected":"USD",
+			"NCONatcostSelected":"NCON at Cost",
+			"CurrencyPrimaryCashFlowSelected":"CAD",
+			"CashFlowsForRemittanceSelected":"Yes",
+			"SalesPricesByLocalCondSelected":"Yes",
+			"SalesPriceExcRatesSelected":"Yes",
+			"SalesMarActiveLocalSalesProdSerSelected":"Yes",
+			"SalesMarSalesDenominatedSelected":"USD",
+			"ExpRawMatLocCondSelected":"Yes",
+			"ExpRawMatUSSelected":"Yes",
+			"CurrFinanceObtainedSelected":"USD",
+			"PrimCashFlowSelected":"Yes",
+			"CashFlowRemSelected":"Yes",
+			
+			"AlloPurpSelected":"Yes",
+			"AlloTypeSelected":"Distribution",
+			"UnitAgreeAllocSelected":"Universal Allocation",
+			"BookUnitFunCostIdSelected":"1018",
+			"BookLevFRPLAccountSelected":"FR Account",
+			"YTDDollarAllocSelected":"$100k-$250k",
+			"BusinessGroupToUnitSelected":"Blue Jays",
+			"CountryToUnitSelected":"Germany",
+			"ToUnitSelected":"Mexico",
+			"ToUnitFuncCostIDSelected":"1212",
+			"BusinessReason": [{
+				"key": "Current Account",
+				"value": "Current Account"
+			}, {
+				"key": "Bill Payments",
+				"value": "Bill Payments"
+			}],
+			"ReferenceUnit": [{
+				"key": "ASD 001",
+				"value": "ASD 001"
+			}, {
+				"key": "BUB 900",
+				"value": "BUB 900"
+			}],
+			"EffectiveDate": "",
+
+			"BusinessGroupCode": [{
+				"key": "BSGC",
+				"value": "BSGC"
+			}, {
+				"key": "SADAS",
+				"value": "SADAS"
+			}],
+			"CountryOfNewUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "France",
+				"value": "France"
+
+			}, {
+				"key": "United Kingdom",
+				"value": "United Kingdom"
+			}],
+			"FCUnittoholdInvestmentinNewUnit": [{
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"FCofNewUnit": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"CargilPercent": "",
+
+			"NCONatcost": [{
+				"key": "NCON at Cost",
+				"value": "NCON at Cost"
+			}, {
+				"key": "NCON at Equity",
+				"value": "NCON at Equity"
+			}],
+			"BusinessJustification": "",
+			"CurrencyPrimaryCashFlow": [{
+				"key": "CAD",
+				"value": "CAD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowsForRemittance": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPricesByLocalCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPriceExcRates": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarActiveLocalSalesProdSer": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarProdSerSolLocally": "",
+			"SalesMarProdSerSolToOthCountries": "",
+			"SalesMarSalesDenominated": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"ExpRawMatLocCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"ExpRawMatUS": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"CurrFinanceObtained": [{
+					"key": "USD",
+					"value": "USD"
+				}, {
+					"key": "AUD",
+					"value": "AUD"
+				}, {
+					"key": "CAD",
+					"value": "CAD"
+				}
+
+			],
+			"DateIsPrimSer": [{
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}
+
+			],
+			"PrimCashFlow": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowRem": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AllLineDes": "",
+			"AlloPurp": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AlloType": [{
+				"key": "Distribution",
+				"value": "Distribution"
+			}, {
+				"key": "Assessment",
+				"value": "Assessment"
+			}],
+			"EffecDate": "",
+			"UnitAgreeAlloc": [{
+				"key": "Universal Allocation",
+				"value": "Universal Allocation"
+			}, {
+				"key": "Run Allocation",
+				"value": "Run Allocation"
+			}],
+			"BookUnitFunCostId": [{
+				"key": "1018",
+				"value": "1018"
+			}, {
+				"key": "1099",
+				"value": "1099"
+			}],
+			"BookLevFRPLAccount": [{
+				"key": "FR Account",
+				"value": "FR Account"
+			}, {
+				"key": "PL Account",
+				"value": "PL Account"
+			}],
+			"YTDDollarAlloc": [{
+				"key": "$100k-$250k",
+				"value": "$100k-$250k"
+			}, {
+				"key": "$250k-$450k",
+				"value": "$250k-$450k"
+			}],
+			"BusinessGroupToUnit": [{
+				"key": "Blue Jays",
+				"value": "Blue Jays"
+			}, {
+				"key": "Evil Masterminds",
+				"value": "Evil Masterminds"
+			}, {
+				"key": "Gritty Goblins",
+				"value": "Gritty Goblins"
+			}],
+			"CountryToUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "Canada",
+				"value": "Canada"
+			}, {
+				"key": "India",
+				"value": "India"
+			}],
+			"ToUnit": [{
+					"key": "Mexico",
+					"value": "Mexico"
+				}, {
+					"key": "Bahrain",
+					"value": "Bahrain"
+				}, {
+					"key": "Bolivia",
+					"value": "Bolivia"
+				}
+
+			],
+			"ToUnitFuncCostID": [{
+				"key": "1212",
+				"value": "1212"
+			}, {
+				"key": "9865",
+				"value": "9865"
+			}],
+			"AlloBusiJus": ""
+
+		}]
+	}	],
+
+
+	
+	"FilteredReq": [],
+	"NewObject": {
+		"RequestId": "",
+		"NewUnitName": "New Unit Name",
+		"RequestDescription": "Fine Foods Aquisition",
+		"BusinessReason": "Business Reason",
+		"DateSubmitted": "05/23/2020",
+		"EffectiveDate": "06/09/2020",
+		"Priority": "Medium",
+		"Status": "Not Started",
+		"RequestorItem": "01",
+		"Requestor": "Andy Fitzgibbons",
+		"AssignedTo": "David Smith",
+		"NoOfItems": 1,
+		
+
+		"Items": [
+			{
+				"DateSubmitted": "05/23/2020",
+					"RequestDescription": "Fine Foods Aquisition",
+				"Status": "Started",
+		"Requestor": "Andy Fitzgibbons",
+		"AssignedTo": "David Smith",
+				"RequestType":"",
+		
+			"RequestId": "",
+			"ItemId": "101",
+			"RequestorItem": "101",
+			"NewUnitName": "New Unit Name",
+			"BusinessReason": [{
+				"key": "Current Account",
+				"value": "Current Account"
+			}, {
+				"key": "Bill Payments",
+				"value": "Bill Payments"
+			}],
+			"ReferenceUnit": [{
+				"key": "ASD 001",
+				"value": "ASD 001"
+			}, {
+				"key": "BUB 900",
+				"value": "BUB 900"
+			}],
+			"EffectiveDate": "",
+
+			"BusinessGroupCode": [{
+				"key": "BSGC",
+				"value": "BSGC"
+			}, {
+				"key": "SADAS",
+				"value": "SADAS"
+			}],
+			"CountryOfNewUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "France",
+				"value": "France"
+
+			}, {
+				"key": "United Kingdom",
+				"value": "United Kingdom"
+			}],
+			"FCUnittoholdInvestmentinNewUnit": [{
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"FCofNewUnit": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"CargilPercent": "",
+
+			"NCONatcost": [{
+				"key": "NCON at Cost",
+				"value": "NCON at Cost"
+			}, {
+				"key": "NCON at Equity",
+				"value": "NCON at Equity"
+			}],
+			"BusinessJustification": "",
+			"CurrencyPrimaryCashFlow": [{
+				"key": "CAD",
+				"value": "CAD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowsForRemittance": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPricesByLocalCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPriceExcRates": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarActiveLocalSalesProdSer": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarProdSerSolLocally": "",
+			"SalesMarProdSerSolToOthCountries": "",
+			"SalesMarSalesDenominated": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"ExpRawMatLocCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"ExpRawMatUS": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"CurrFinanceObtained": [{
+					"key": "USD",
+					"value": "USD"
+				}, {
+					"key": "AUD",
+					"value": "AUD"
+				}, {
+					"key": "CAD",
+					"value": "CAD"
+				}
+
+			],
+			"DateIsPrimSer": [{
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}
+
+			],
+			"PrimCashFlow": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowRem": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AllLineDes": "",
+			"AlloPurp": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AlloType": [{
+				"key": "Distribution",
+				"value": "Distribution"
+			}, {
+				"key": "Assessment",
+				"value": "Assessment"
+			}],
+			"EffecDate": "",
+			"UnitAgreeAlloc": [{
+				"key": "Universal Allocation",
+				"value": "Universal Allocation"
+			}, {
+				"key": "Run Allocation",
+				"value": "Run Allocation"
+			}],
+			"BookUnitFunCostId": [{
+				"key": "1018",
+				"value": "1018"
+			}, {
+				"key": "1099",
+				"value": "1099"
+			}],
+			"BookLevFRPLAccount": [{
+				"key": "FR Account",
+				"value": "FR Account"
+			}, {
+				"key": "PL Account",
+				"value": "PL Account"
+			}],
+			"YTDDollarAlloc": [{
+				"key": "$100k-$250k",
+				"value": "$100k-$250k"
+			}, {
+				"key": "$250k-$450k",
+				"value": "$250k-$450k"
+			}],
+			"BusinessGroupToUnit": [{
+				"key": "Blue Jays",
+				"value": "Blue Jays"
+			}, {
+				"key": "Evil Masterminds",
+				"value": "Evil Masterminds"
+			}, {
+				"key": "Gritty Goblins",
+				"value": "Gritty Goblins"
+			}],
+			"CountryToUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "Canada",
+				"value": "Canada"
+			}, {
+				"key": "India",
+				"value": "India"
+			}],
+			"ToUnit": [{
+					"key": "Mexico",
+					"value": "Mexico"
+				}, {
+					"key": "Bahrain",
+					"value": "Bahrain"
+				}, {
+					"key": "Bolivia",
+					"value": "Bolivia"
+				}
+
+			],
+			"ToUnitFuncCostID": [{
+				"key": "1212",
+				"value": "1212"
+			}, {
+				"key": "9865",
+				"value": "9865"
+			}],
+			"AlloBusiJus": ""
+
+		}
+		]
+	},
+	"NewItem":	{
+			"RequestDescription": "",
+			"RequestId": "",
+			"ItemId": "",
+			"RequestorItem": "",
+			"NewUnitName": "New Unit Name",
+			"BusinessReason": [{
+				"key": "Current Account",
+				"value": "Current Account"
+			}, {
+				"key": "Bill Payments",
+				"value": "Bill Payments"
+			}],
+			"ReferenceUnit": [{
+				"key": "ASD 001",
+				"value": "ASD 001"
+			}, {
+				"key": "BUB 900",
+				"value": "BUB 900"
+			}],
+			"EffectiveDate": "",
+
+			"BusinessGroupCode": [{
+				"key": "BSGC",
+				"value": "BSGC"
+			}, {
+				"key": "SADAS",
+				"value": "SADAS"
+			}],
+			"CountryOfNewUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "France",
+				"value": "France"
+
+			}, {
+				"key": "United Kingdom",
+				"value": "United Kingdom"
+			}],
+			"FCUnittoholdInvestmentinNewUnit": [{
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"FCofNewUnit": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"CargilPercent": "",
+
+			"NCONatcost": [{
+				"key": "NCON at Cost",
+				"value": "NCON at Cost"
+			}, {
+				"key": "NCON at Equity",
+				"value": "NCON at Equity"
+			}],
+			"BusinessJustification": "",
+			"CurrencyPrimaryCashFlow": [{
+				"key": "CAD",
+				"value": "CAD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowsForRemittance": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPricesByLocalCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesPriceExcRates": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarActiveLocalSalesProdSer": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"SalesMarProdSerSolLocally": "",
+			"SalesMarProdSerSolToOthCountries": "",
+			"SalesMarSalesDenominated": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+			"ExpRawMatLocCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"ExpRawMatUS": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"CurrFinanceObtained": [{
+					"key": "USD",
+					"value": "USD"
+				}, {
+					"key": "AUD",
+					"value": "AUD"
+				}, {
+					"key": "CAD",
+					"value": "CAD"
+				}
+
+			],
+			"DateIsPrimSer": [{
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}
+
+			],
+			"PrimCashFlow": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+			"CashFlowRem": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AllLineDes": "",
+			"AlloPurp": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"AlloType": [{
+				"key": "Distribution",
+				"value": "Distribution"
+			}, {
+				"key": "Assessment",
+				"value": "Assessment"
+			}],
+			"EffecDate": "",
+			"UnitAgreeAlloc": [{
+				"key": "Universal Allocation",
+				"value": "Universal Allocation"
+			}, {
+				"key": "Run Allocation",
+				"value": "Run Allocation"
+			}],
+			"BookUnitFunCostId": [{
+				"key": "1018",
+				"value": "1018"
+			}, {
+				"key": "1099",
+				"value": "1099"
+			}],
+			"BookLevFRPLAccount": [{
+				"key": "FR Account",
+				"value": "FR Account"
+			}, {
+				"key": "PL Account",
+				"value": "PL Account"
+			}],
+			"YTDDollarAlloc": [{
+				"key": "$100k-$250k",
+				"value": "$100k-$250k"
+			}, {
+				"key": "$250k-$450k",
+				"value": "$250k-$450k"
+			}],
+			"BusinessGroupToUnit": [{
+				"key": "Blue Jays",
+				"value": "Blue Jays"
+			}, {
+				"key": "Evil Masterminds",
+				"value": "Evil Masterminds"
+			}, {
+				"key": "Gritty Goblins",
+				"value": "Gritty Goblins"
+			}],
+			"CountryToUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "Canada",
+				"value": "Canada"
+			}, {
+				"key": "India",
+				"value": "India"
+			}],
+			"ToUnit": [{
+					"key": "Mexico",
+					"value": "Mexico"
+				}, {
+					"key": "Bahrain",
+					"value": "Bahrain"
+				}, {
+					"key": "Bolivia",
+					"value": "Bolivia"
+				}
+
+			],
+			"ToUnitFuncCostID": [{
+				"key": "1212",
+				"value": "1212"
+			}, {
+				"key": "9865",
+				"value": "9865"
+			}],
+			"AlloBusiJus": ""
+
+		},
+	"BusinessReason": [{
+				"key": "Current Account",
+				"value": "Current Account"
+			}, {
+				"key": "Bill Payments",
+				"value": "Bill Payments"
+			}],
+     "BusinessGroupCode": [
+				{
+				"key": "BSGC",
+				"value": "BSGC"
+			}, 
+			{
+				"key": "SADAS",
+				"value": "SADAS"
+			}
+			],
+	"ReferenceUnit": [{
+				"key": "ASD 001",
+				"value": "ASD 001"
+			}, {
+				"key": "BUB 900",
+				"value": "BUB 900"
+			}],
+		
+	"CountryOfNewUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "France",
+				"value": "France"
+
+			}, {
+				"key": "United Kingdom",
+				"value": "United Kingdom"
+			}],
+	"FCUnittoholdInvestmentinNewUnit": [{
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+	"FCofNewUnit": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+	"NCONatcost": [{
+				"key": "NCON at Cost",
+				"value": "NCON at Cost"
+			}, {
+				"key": "NCON at Equity",
+				"value": "NCON at Equity"
+			}],
+	"CurrencyPrimaryCashFlow": [{
+				"key": "CAD",
+				"value": "CAD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+	"CashFlowsForRemittance": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+	"SalesPricesByLocalCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+	"SalesPriceExcRates": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+	"SalesMarActiveLocalSalesProdSer": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+	"SalesMarSalesDenominated": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "GER",
+				"value": "GER"
+			}, {
+				"key": "UAE",
+				"value": "UAE"
+			}],
+	"ExpRawMatLocCond": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+	"ExpRawMatUS": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+	"CurrFinanceObtained": [{
+					"key": "USD",
+					"value": "USD"
+				}, {
+					"key": "AUD",
+					"value": "AUD"
+				}, {
+					"key": "CAD",
+					"value": "CAD"
+				}
+
+			],
+	"DateIsPrimSer": [{
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}, {
+					"key": "",
+					"Selected": ""
+				}
+
+			],
+	"PrimCashFlow": [{
+				"key": "USD",
+				"value": "USD"
+			}, {
+				"key": "USD",
+				"value": "USD"
+			}],
+	"CashFlowRem": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+	"AlloPurp": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+	"AlloType": [{
+				"key": "Distribution",
+				"value": "Distribution"
+			}, {
+				"key": "Assessment",
+				"value": "Assessment"
+			}],
+	"UnitAgreeAlloc": [{
+				"key": "Universal Allocation",
+				"value": "Universal Allocation"
+			}, {
+				"key": "Run Allocation",
+				"value": "Run Allocation"
+			}],
+	"BookUnitFunCostId": [{
+				"key": "1018",
+				"value": "1018"
+			}, {
+				"key": "1099",
+				"value": "1099"
+			}],
+	"BookLevFRPLAccount": [{
+				"key": "FR Account",
+				"value": "FR Account"
+			}, {
+				"key": "PL Account",
+				"value": "PL Account"
+			}],
+	"YTDDollarAlloc": [{
+				"key": "$100k-$250k",
+				"value": "$100k-$250k"
+			}, {
+				"key": "$250k-$450k",
+				"value": "$250k-$450k"
+			}],
+	"BusinessGroupToUnit": [{
+				"key": "Blue Jays",
+				"value": "Blue Jays"
+			}, {
+				"key": "Evil Masterminds",
+				"value": "Evil Masterminds"
+			}, {
+				"key": "Gritty Goblins",
+				"value": "Gritty Goblins"
+			}],
+	"CountryToUnit": [{
+				"key": "Germany",
+				"value": "Germany"
+			}, {
+				"key": "Canada",
+				"value": "Canada"
+			}, {
+				"key": "India",
+				"value": "India"
+			}],
+	"ToUnit": [{
+					"key": "Mexico",
+					"value": "Mexico"
+				}, {
+					"key": "Bahrain",
+					"value": "Bahrain"
+				}, {
+					"key": "Bolivia",
+					"value": "Bolivia"
+				}
+
+			],
+	"ToUnitFuncCostID": [{
+				"key": "1212",
+				"value": "1212"
+			}, {
+				"key": "9865",
+				"value": "9865"
+			}],
+     "SeverencePayment": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+    "TerminationBenefits": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+		"RestructuringPlan": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+		"ServiceRequirements": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+			"PlanOfTermination": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+				"ImpactedEmployees": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+				"RestructuringType": [{
+				"key": "Facility Rationalization",
+				"value": "Facility Rationalization"
+			}, {
+				"key": "Products Rationalization",
+				"value": "Products Rationalization"
+			}],
+		   	"HowLong": [{
+				"key": "6 Months",
+				"value": "6 Months"
+			}, {
+				"key": "12 Months",
+				"value": "12 Months"
+			}],
+				"EmployeesIdentified": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}],
+          	"DollarAmount": [{
+				"key": "200",
+				"value": "200"
+			}, {
+				"key": "400",
+				"value": "400"
+			}],	
+				"EmployeesBenefitsCalculated": [{
+				"key": "Yes",
+				"value": "Yes"
+			}, {
+				"key": "No",
+				"value": "No"
+			}]
+}

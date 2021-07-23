@@ -1,0 +1,38 @@
+<mvc:View controllerName="com.mindset.oth.unitallocrequests.controller.Master" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core">
+	<Page >
+		<content>
+			<List items="{RequestModel>/FilteredReq}" id="masterList">
+				<headerToolbar>
+					<Toolbar height="5rem">
+						<VBox>
+							<Label text="RequestId# {RequestModel>/selectRequestId}"/>
+							<Label text="{RequestModel>/selectRequestDescription}"/>
+						</VBox>
+						<ToolbarSpacer></ToolbarSpacer>
+						<Button icon="sap-icon://add" type="Emphasized" width="3rem" class="AddButton" press="onAddItemDialog"></Button>
+					</Toolbar>
+				</headerToolbar>
+				<CustomListItem type="Active" press="onSelectChange">
+					<HBox justifyContent="SpaceBetween" class="sapUiSmallMargin">
+						<!--<VBox items="{path:'RequestModel>Items'}">
+							<items>-->
+						<!--<Label text="{RequestModel>RequestId}"/>-->
+						<!--<Label text="{RequestModel>RequestId}"/>-->
+						<VBox>
+							<Label text="{RequestModel>ItemId}"/>
+							<Label text="{RequestModel>NewUnitName}" class="sapUiTinyMarginTop"/>
+						</VBox>
+						<!--</items>
+						</VBox>-->
+						<VBox alignItems="End" class="sapUiSmallMarginBottom">
+							<Button icon="sap-icon://delete" type="Reject" press="onDelete"></Button>
+						</VBox>
+					</HBox>
+				</CustomListItem>
+			</List>
+		</content>
+		<!--<dependents>-->
+		<!--	<core:Fragment fragmentName="com.mindset.fin.PendingRequests.view.ViewSettingsDialog" type="XML"/>-->
+		<!--</dependents>-->
+	</Page>
+</mvc:View>

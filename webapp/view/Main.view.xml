@@ -1,0 +1,56 @@
+<mvc:View controllerName="com.mindset.oth.unitallocrequests.controller.Main" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+		<Page id="page">
+			<content>
+				<Table id="RequestTableId" items="{path:'RequestModel>/FilteredReqType'}" alternateRowColors="true" mode="MultiSelect" >
+					<headerToolbar>
+						<Toolbar>
+							<ToolbarSpacer/>
+							<Button text="Assign to Me" type="Emphasized" press="handlePopoverPress"></Button>
+							<SearchField width="20%" liveChange="onSearch"></SearchField>
+						</Toolbar>
+					</headerToolbar>
+					<columns>
+						<Column>
+							<Label text="RequestID"></Label>
+						</Column>
+						<Column width="5rem">
+							<Label text="Items"></Label>
+						</Column>
+						<Column width="10rem">
+							<Label text="Request Description"></Label>
+						</Column>
+						<Column width="8rem">
+							<Label text="Business Reason"></Label>
+						</Column>
+						<Column width="8rem">
+							<Label text="Date Submitted"></Label>
+						</Column>
+						<Column>
+							<Label text="Effective Date"></Label>
+						</Column>
+						<Column>
+							<Label text="Priority"></Label>
+						</Column>
+						<Column>
+							<Label text="Status"></Label>
+						</Column>
+						
+					</columns>
+				    <items>
+					<ColumnListItem press="onPress" type="Navigation" >
+						<cells>
+							<Text text="{RequestModel>RequestId}"></Text>
+							<Text text="{= ${RequestModel>Items}.length}"></Text>
+							<Text text="{RequestModel>RequestDescription}"></Text>
+							<Text text="{RequestModel>BusinessReason}"></Text>
+							<Text text="{RequestModel>DateSubmitted}"></Text>
+							<Text text="{RequestModel>EffectiveDate}"></Text>
+							<Text text="{RequestModel>Priority}"></Text>
+							<Text text="{RequestModel>Status}"></Text>
+						</cells>
+					</ColumnListItem>
+					</items>
+				</Table>
+			</content>
+		</Page>
+</mvc:View>

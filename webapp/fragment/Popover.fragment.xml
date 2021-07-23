@@ -1,0 +1,16 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<Popover id="myPopover" title="{Name}" class="sapUiResponsivePadding--header sapUiResponsivePadding--footer" placement="Bottom"
+		initialFocus="email" contentWidth="320px" contentHeight="50px">
+		<content >
+			<VBox height="80%">
+				<Text text="{RequestModel>selectedRequests}" class="sapUiTinyMarginBegin"/>
+			</VBox>
+		</content>
+		<footer>
+			<Toolbar>
+				<ToolbarSpacer></ToolbarSpacer>
+				<Button text="{i18n>ok}" press="onclosePopOver"/>
+			</Toolbar>
+		</footer>
+	</Popover>
+</core:FragmentDefinition>
