@@ -63,7 +63,7 @@
 				<core:CustomData key="ReconciliationSystem"/></customData>
 		<core:Item key="{RequestModel>key}" text="{RequestModel>value}"/>
 		</ComboBox>
-		<Label text="Country of To Unit" required="true"/>
+		<Label text="Country of To Unit" />
 		<ComboBox items="{RequestModel>/CountryToUnit}" selectedKey="" change="onChange" width="14rem">
 			<customData>
 				<core:CustomData key="ReconciliationSystem"/></customData>

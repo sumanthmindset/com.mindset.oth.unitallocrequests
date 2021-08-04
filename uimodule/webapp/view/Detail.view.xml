@@ -62,7 +62,7 @@
 						</uxap:ObjectPageSubSection>
 					</uxap:subSections>
 				</uxap:ObjectPageSection>
-				<uxap:ObjectPageSection title="CurrencySurvey" titleUppercase="false" showTitle="false" visible="{RequestModel>CurrencySurveyvisible}">
+				<uxap:ObjectPageSection title="Currency Survey" titleUppercase="false" showTitle="false" visible="{RequestModel>CurrencySurveyvisible}">
 					<uxap:subSections>
 						<uxap:ObjectPageSubSection title="">
 							<uxap:blocks>
